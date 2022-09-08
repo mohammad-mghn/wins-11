@@ -1,0 +1,45 @@
+@import "../../variables.scss";
+
+.edge-contianer {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  min-width: 40rem;
+}
+.iframe-container {
+  position: absolute;
+  top: 5.25em;
+  width: 100%;
+  height: calc(100% - 5.25em);
+  background-color: rgb(34, 34, 34);
+  &::before {
+    content: "Loading...";
+    position: absolute;
+    inset: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 1em;
+    color: rgb(110, 110, 110);
+    animation: edgeLoading 1750ms steps(4) infinite;
+  }
+  .edge-iframe {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+}
+@keyframes edgeLoading {
+  0% {
+    content: "Loading";
+  }
+  33% {
+    content: "Loading.";
+  }
+  66% {
+    content: "Loading..";
+  }
+  100% {
+    content: "Loading...";
+  }
+}

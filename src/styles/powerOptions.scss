@@ -1,0 +1,36 @@
+@import "./variables.scss";
+
+.power-options-contianer {
+  position: absolute;
+  inset: 50%;
+  transform: translate(-50%, -50%);
+}
+.power-options-container {
+  @include flex(center, space-between, column);
+  position: absolute;
+  padding: 0.6rem 0;
+  height: 10.5rem;
+  width: 7.5rem;
+  border-radius: 0.5rem;
+  overflow: hidden;
+  @include blur-bg;
+  border-radius: 4px;
+  .power-option-container {
+    @include flex(center);
+    @include hover;
+    width: 90%;
+    height: 2rem;
+    padding-left: 0.4rem;
+    img {
+      width: 21%;
+    }
+    h6 {
+      width: 78%;
+      color: $mainHeader;
+      text-align: left;
+      font-size: 0.75rem;
+      font-weight: 400;
+      margin-left: 0.6rem;
+    }
+  }
+}

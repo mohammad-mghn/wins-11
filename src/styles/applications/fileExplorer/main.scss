@@ -1,0 +1,44 @@
+@import "../../variables.scss";
+
+.fe-main-container {
+  width: 90%;
+  height: 97%;
+  padding: 0 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    width: 6px;
+  }
+  &::-webkit-scrollbar-track {
+    background-color: transparent;
+  }
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background-color: #757575;
+  }
+  .main-container-item {
+    @include flex(center, flex-start, column);
+    @include hover;
+    padding: 0.5rem 1rem;
+    height: fit-content;
+    max-height: 9.5rem;
+    width: 6.66rem;
+    overflow: hidden;
+    img {
+      margin-top: -10%;
+      width: 132.5%;
+    }
+    p {
+      margin-top: -0.5rem;
+      font-size: 0.75rem;
+      font-weight: 300;
+      width: 98%;
+      color: $mainHeader;
+      text-align: center;
+      word-break: keep-all;
+      word-wrap: break-word;
+    }
+  }
+}

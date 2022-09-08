@@ -1,0 +1,20 @@
+@import "../../variables.scss";
+
+.fe {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.fe-container {
+  @include flex(center);
+  height: calc(100% - 6.25em);
+  width: 100%;
+  background-color: #12141b;
+}
+.fe-sidebar {
+  margin-top: -1.25%;
+  height: 95%;
+  width: 12rem;
+  border-right: 1px solid rgba(122, 122, 122, 0.37);
+}
+

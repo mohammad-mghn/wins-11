@@ -1,0 +1,67 @@
+$mainHeader: var(--mainHeader);
+$borderColor: var(--borderColor);
+$boxShadow: var(--boxShadow);
+$darkBackground: var(--darkBackground);
+$darkerBackground: var(--darkerBackground);
+$personalizedColor: var(--personalizedColor);
+$iconColor: var(--iconColor);
+$appBorder: #8080804c;
+
+@mixin blur-bg {
+  background-color: #57577770;
+  backdrop-filter: blur(10px);
+}
+
+@mixin blur-bg-dark {
+  background-color: #17171f94;
+  backdrop-filter: blur(20px);
+}
+
+@mixin blur-bg-app {
+  background-color: #26265a61;
+  backdrop-filter: blur(20px);
+}
+
+@mixin blur-bg-darker {
+  background-color: rgba(29, 29, 29, 0.815);
+  backdrop-filter: blur(20px);
+}
+
+@mixin flex-center-column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+@mixin flex($align: flex-start, $justify: flex-start, $direction: row) {
+  display: flex;
+  align-items: $align;
+  justify-content: $justify;
+  flex-direction: $direction;
+}
+
+@mixin center {
+  display: grid;
+  place-items: center;
+}
+
+@mixin hover {
+  border-radius: 4px;
+  transition: all 250ms;
+  border-top: 1px solid transparent;
+  &:hover {
+    border-top: 1px solid rgba(104, 104, 104, 0.15);
+    background-color: rgba(211, 211, 211, 0.1);
+  }
+}
+
+@mixin clicked {
+  &:active {
+    transform: scale(0.75);
+  }
+}
+
+@mixin clicked-opacity {
+  &:active {
+    opacity: 0.75;
+  }
+}

@@ -1,0 +1,168 @@
+@import "./variables.scss";
+.taskbar {
+  @include blur-bg-dark;
+  @include flex(center, center);
+  position: fixed;
+  inset: auto auto 0 0;
+  height: 3em;
+  width: 100%;
+  padding: 0 1rem;
+  z-index: 5;
+  .taskbar-apps {
+    display: flex;
+    align-items: center;
+    .taskbar-container {
+      position: relative;
+      transform: translateY(-3%);
+      background: none;
+      @include hover;
+      @include center;
+      height: 2.5em;
+      width: 2.5em;
+      margin-right: 0.25rem;
+      span {
+        position: absolute;
+        inset: auto auto 0% 50%;
+        transform: translateX(-50%);
+        height: 8%;
+        width: 15%;
+        border-radius: 3px;
+        transition: all 300ms;
+      }
+      img {
+        @include clicked;
+        height: 60%;
+      }
+      .taskbar-app {
+        width: 1.5rem;
+      }
+    }
+  }
+}
+.taskbar-panel {
+  @include flex(center);
+  column-gap: 0.05rem;
+  position: absolute;
+  right: 0.75rem;
+}
+.date--time-container {
+  @include flex(center, space-between);
+  @include hover;
+  @include clicked-opacity;
+  padding: 0.25rem 0.5rem;
+  height: 3.5em;
+  font-size: 0.7rem;
+  color: currentColor;
+  .date--time-data-container {
+    @include flex(end, space-between, column);
+    font-weight: 300;
+    color: $mainHeader;
+  }
+  .notification-count {
+    @include center;
+    margin-left: 0.5rem;
+    width: 1rem;
+    height: 1rem;
+    border-radius: 50%;
+    background-color: $personalizedColor;
+  }
+}
+
+// statusbar.js
+.statusbar-container {
+  @include flex(center, space-between);
+  @include hover;
+  padding: 0 0.25rem;
+  width: 5.225rem;
+  height: 2.45em;
+  .statusbar-battery-status {
+    position: relative;
+    display: grid;
+    place-items: center;
+    width: 1.35rem;
+    height: 1.35rem;
+    .statusbar-battery-back {
+      position: absolute;
+      inset: 50% auto auto 0.125rem;
+      transform: translateY(-50%);
+      width: 1.1rem;
+      height: 1.1rem;
+    }
+    .statusbar-battery-filled-container {
+      position: absolute;
+      inset: 50% auto auto 0.125rem;
+      transform: translateY(-50%);
+      height: 1.1rem;
+      overflow: hidden;
+      img {
+        position: absolute;
+        margin-top: 0.035rem;
+        width: 1.02rem;
+        height: 1.02rem;
+      }
+    }
+    .statusbar-charging-container {
+      position: absolute;
+      inset: -0.05rem auto auto -0.01rem;
+      img {
+        height: 0.75rem;
+      }
+    }
+  }
+  .statusbar-screen-network-status {
+    @include center;
+    position: relative;
+    height: 1.7rem;
+    width: 1.7rem;
+    img {
+      width: 1.1rem;
+      &.offline {
+        margin-top: -5%;
+        width: 1.3rem;
+      }
+    }
+  }
+  .statusbar-volume-container {
+    @include center;
+    margin-left: -0.2rem;
+    height: 1.1rem;
+    width: 1.1rem;
+    img {
+      width: 1rem;
+    }
+  }
+}
+// lnaguageBar.js
+.taskbar-language-bar {
+  @include hover;
+  @include center;
+  height: 3em;
+  width: 3.25em;
+  color: $mainHeader;
+  font-size: 0.75em;
+}
+// RunningBar.js
+.running-bar {
+  @include hover;
+  @include center;
+  margin-right: 0.1rem;
+  height: 2.75em;
+  width: 1.3em;
+  img {
+    transform: rotate(-90deg);
+    width: 57.5%;
+  }
+}
+// widgetButton.js
+.widget-button {
+  @include hover;
+  @include center;
+  position: absolute;
+  left: 0.6rem;
+  height: 2.5em;
+  width: 2.5em;
+  img {
+    @include clicked;
+    width: 1.6em;
+  }
+}

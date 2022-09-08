@@ -1,0 +1,141 @@
+@import "../../variables.scss";
+
+.file-explorer-container {
+  @include flex(center);
+  height: 2.75em;
+  width: 100%;
+  padding: 0 0.5em 0 0.7em;
+  background-color: #12141b;
+  .navigators-container {
+    @include flex(center);
+    width: 8rem;
+    column-gap: 0.425rem;
+    margin-right: 0.5rem;
+    button {
+      @include hover;
+      @include center;
+      height: 2.25rem;
+      width: 2.25rem;
+      background-color: transparent;
+      img {
+        width: 1.1rem;
+      }
+      &.forward {
+        img {
+          transform: rotate(180deg);
+        }
+      }
+      &.down {
+        width: 1rem;
+        img {
+          width: 0.7rem;
+        }
+      }
+      &.up {
+        transform: rotate(90deg);
+      }
+    }
+  }
+  .path-field {
+    @include flex(center);
+    position: relative;
+    height: 2.25em;
+    width: 20rem;
+    margin-right: 0.7%;
+    padding-left: 0.5rem;
+    flex-grow: 1;
+    border: 1px solid rgba(122, 122, 122, 0.37);
+    img.folder-icon {
+      width: 1.25rem;
+    }
+    form {
+      width: 60%;
+      flex-grow: 1;
+      input {
+        margin-left: 0.5rem;
+        width: 100%;
+        flex-shrink: 3;
+        font-size: 0.75rem;
+        line-height: 0.85rem;
+        color: $mainHeader;
+        overflow: hidden;
+        background-color: transparent;
+      }
+      .root-container {
+        @include flex(center);
+        margin-left: 0.5rem;
+        height: 1.4rem;
+        width: 70%;
+        padding-right: 0.25rem;
+        overflow: hidden;
+        .root-item {
+          @include hover;
+          @include flex(center);
+          height: 100%;
+          min-width: fit-content;
+          margin-right: 0.25rem;
+          border-radius: 0;
+          img {
+            margin: auto 0.25rem;
+            width: 0.6rem;
+            transform: rotate(-90deg);
+          }
+          p {
+            color: $mainHeader;
+            font-size: 0.7rem;
+            white-space: nowrap;
+            min-width: min-content;
+          }
+        }
+      }
+    }
+
+    .buttons {
+      position: absolute;
+      inset: 0 0 auto auto;
+      height: 100%;
+      @include flex(center);
+      button {
+        @include center;
+        @include hover;
+        width: 8rem;
+        column-gap: 0.425rem;
+        margin-right: 0.2rem;
+        height: 100%;
+        border-radius: 0;
+        width: 2.2rem;
+        background-color: transparent;
+        img {
+          width: 0.9rem;
+        }
+        &.down {
+          img {
+            width: 0.75rem;
+          }
+        }
+      }
+    }
+  }
+  .search-field {
+    @include flex(center);
+    padding: 0 0.75rem;
+    height: 2.25em;
+    width: 30em;
+    max-width: 30em;
+    column-gap: 0.75rem;
+    border: 1px solid rgba(122, 122, 122, 0.37);
+    img {
+      width: 1rem;
+      transform: rotateY(180deg);
+      opacity: 0.3;
+    }
+    input {
+      background-color: transparent;
+      color: $mainHeader;
+      width: 80%;
+      height: 0.8rem;
+      font-size: 0.7rem;
+      line-height: 0.75rem;
+    }
+  }
+}
