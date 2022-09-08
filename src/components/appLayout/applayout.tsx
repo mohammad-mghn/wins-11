@@ -67,14 +67,11 @@ const Applayout = ({ app, children, isActivated }: Props) => {
     if (maximized && dragging && +offset[1] !== +lastOffset[1] && +offset[0] !== +lastOffset[0]) {
       maximizeHandler();
     }
-<<<<<<< HEAD
-=======
     if (dragging) {
       document.getElementById("appLayout")!.style.transition = "height 250ms, width 250ms";
     } else {
       document.getElementById("appLayout")!.style.transition = "height 250ms, width 250ms, left 300ms, top 300ms";
     }
->>>>>>> 67ee87a (remove html file)
   });
 
   //
