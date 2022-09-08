@@ -67,7 +67,7 @@ function Navbar() {
             // <div className="root-container" onClick={pathChangeActivatedHandler}>
             <div className="root-container">
               {path.split("/").map(
-                (item, index) =>
+                (item: string, index: number) =>
                   item && (
                     <div
                       className="root-item"

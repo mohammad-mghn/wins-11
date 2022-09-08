@@ -122,10 +122,7 @@ const Applayout = ({ app, children, isActivated }: Props) => {
     <animated.div
       onClick={activeApp}
       className="app-layout"
-<<<<<<< HEAD
-=======
       id="appLayout"
->>>>>>> 67ee87a (remove html file)
       style={{
         top: appPos.y,
         left: appPos.x,
