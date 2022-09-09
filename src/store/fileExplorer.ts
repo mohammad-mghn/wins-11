@@ -15,6 +15,7 @@ type initialStateType = {
   path: string;
   past: string[];
   future: string[];
+  recycleBinPath: string;
   sidebar: sidebarType;
 };
 
@@ -30,6 +31,7 @@ const initialState: initialStateType = {
   future: [],
   folders: folders,
   path: "This PC:",
+  recycleBinPath: "Recycle bin:",
   sidebar: sidebarArray,
 };
 

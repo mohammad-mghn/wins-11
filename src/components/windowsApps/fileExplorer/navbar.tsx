@@ -12,25 +12,29 @@ import arrowTriangleIcon from "../../../assists/icons/arrow-triangle.png";
 
 import "../../../styles/applications/fileExplorer/navabar.scss";
 
-function Navbar() {
+interface Props {
+  path: string;
+}
+
+function Navbar({ path }: Props) {
   const dispatch = useDispatch();
 
   // stands for file explorer
   const FE = useSelector((state: RootState) => state.fileExplorer);
 
   // state for manual root changing
-  const [root, setRoot] = useState(FE.path);
+  const [root, setRoot] = useState(path);
 
   // state for path manual section ablity
   const [pathChangeActivated, setPathChangeActivated] = useState(false);
 
   useEffect(() => {
-    setRoot(FE.path);
-  }, [FE.path]);
+    setRoot(path);
+  }, [path]);
 
   // Handlers
 
-  const changePathHandler = (e: { preventDefault: () => void; }) => {
+  const changePathHandler = (e: { preventDefault: () => void }) => {
     e.preventDefault();
 
     dispatch(fileExplorerActions.changePath(root));
@@ -41,7 +45,7 @@ function Navbar() {
   const rootItemHandler = (index: number) => {
     dispatch(
       fileExplorerActions.changePath(
-        FE.path
+        path
           .split("/")
           .slice(0, index + 1)
           .join("/")
@@ -49,7 +53,7 @@ function Navbar() {
     );
   };
 
-  const pathInputChangeHandler = (e: { target: { value: SetStateAction<string>; }; }) => {
+  const pathInputChangeHandler = (e: { target: { value: SetStateAction<string> } }) => {
     setRoot(e.target.value);
   };
 
@@ -87,10 +91,10 @@ function Navbar() {
       </div>
       <div className="path-field">
         <img src={fileIcon} alt="" className="folder-icon" />
-        
+
         <form onSubmit={changePathHandler} onClick={pathChangeActivatedHandler}>
           {pathChangeActivated ? (
-            <input type="text" defaultValue={FE.path} onChange={pathInputChangeHandler} value={root} />
+            <input type="text" defaultValue={path} onChange={pathInputChangeHandler} value={root} />
           ) : (
             <div
               className="root-container"
@@ -98,7 +102,7 @@ function Navbar() {
                 e.stopPropagation();
               }}
             >
-              {FE.path.split("/").map(
+              {path.split("/").map(
                 (item: string, index: number) =>
                   item && (
                     <div

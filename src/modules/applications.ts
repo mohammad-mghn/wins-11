@@ -1,8 +1,9 @@
 // Applications components
 
-import FileExplorer from "../components/windowsApps/fileExplorer/index";
-
 import Edge from "../components/windowsApps/edge";
+import RecycleBinComponent from "../components/windowsApps/recycleBin";
+import FileExplorer from "../components/windowsApps/fileExplorer/index";
+import VSCode from "../components/windowsApps/VSCode/index";
 
 // Applications images
 
@@ -15,6 +16,7 @@ import Store from "../assists/icons/store.png";
 import Spotify from "../assists/icons/spotify.png";
 import Notepad from "../assists/icons/notepad.png";
 import Board from "../assists/icons/board.png";
+import VSCodeIcon from "../assists/icons/vscode.png";
 
 export const Applications = [
   {
@@ -40,7 +42,7 @@ export const Applications = [
   },
   {
     icon: RecycleBin,
-    Component: FileExplorer,
+    Component: RecycleBinComponent,
     name: "Recycle bin",
   },
   {
@@ -62,6 +64,11 @@ export const Applications = [
     icon: Board,
     Component: FileExplorer,
     name: "White Board",
+  },
+  {
+    icon: VSCodeIcon,
+    Component: VSCode,
+    name: "VSCode",
   },
 ];
 
@@ -147,19 +154,14 @@ export const pinnedAppsInTaskbar = [
     name: "Microsoft Storeasdfa",
   },
   {
-    icon: Spotify,
-    Component: FileExplorer,
-    name: "Spotiy",
-  },
-  {
     icon: Notepad,
     Component: FileExplorer,
     name: "Notepad",
   },
   {
-    icon: Board,
-    Component: FileExplorer,
-    name: "White Board",
+    icon: VSCodeIcon,
+    Component: VSCode,
+    name: "VSCode",
   },
 ];
 

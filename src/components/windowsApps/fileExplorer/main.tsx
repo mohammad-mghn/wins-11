@@ -1,18 +1,26 @@
-import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store/index";
-import folderIcon from "../../../assists/icons/filled-folder.png";
-import "../../../styles/applications/fileExplorer/main.scss";
+import { useDispatch, useSelector } from "react-redux";
+
 import { fileExplorerActions } from "../../../store/fileExplorer";
-function Main() {
+
+import folderIcon from "../../../assists/icons/filled-folder.png";
+
+import "../../../styles/applications/fileExplorer/main.scss";
+
+interface Props {
+  path: string;
+}
+
+function Main({ path }: Props) {
   const dispatch = useDispatch();
 
   const fileExplorer = useSelector((state: RootState) => state.fileExplorer);
 
   const folders = fileExplorer.folders.filter((item) => {
     if (
-      item.path.slice(0, fileExplorer.path.length) === fileExplorer.path &&
-      item.path !== fileExplorer.path &&
-      !item.path.slice(fileExplorer.path.length + 1, item.path.length).includes("/")
+      item.path.slice(0, path.length) === path &&
+      item.path !== path &&
+      !item.path.slice(path.length + 1, item.path.length).includes("/")
     ) {
       return item;
     }

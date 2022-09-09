@@ -1,20 +1,11 @@
-import Header from "./header";
-import Navbar from "./navbar";
-import Sidebar from "./sidebar";
+import FileExplorer from "./fileExplorer";
 
-import "../../../styles/applications/fileExplorer/fileExplorer.scss";
-import Main from "./main";
-
-function FileExplorer() {
+function index() {
   return (
-    <div className="fe">
-      <Header />
-      <Navbar />
-      <div className="fe-container">
-        <Sidebar />
-        <Main/>
-      </div>
-    </div>
+    <>
+      <FileExplorer />
+    </>
   );
 }
-export default FileExplorer;
+
+export default index;

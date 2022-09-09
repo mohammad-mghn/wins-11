@@ -4,6 +4,7 @@ import Music from "../assists/icons/music-folder.png";
 import Pictures from "../assists/icons/pictures-folder.png";
 import Desktop from "../assists/icons/desktop-folder-icon.png";
 import Download from "../assists/icons/download-folder.png";
+import RecycleBin from "../assists/icons/recycle-bin.png";
 import Video from "../assists/icons/video-folder.png";
 import OneDrive from "../assists/icons/one-drive.png";
 import Docs from "../assists/icons/docs-folder.png";
@@ -136,5 +137,11 @@ export const folders = [
     header: "perfLogs",
     path: "C:/perfLogs",
     icon: undefined,
+  },
+  {
+    name: "recycle bin",
+    header: "Recycle bin",
+    path: "Recycle bin:",
+    icon: RecycleBin,
   },
 ];
