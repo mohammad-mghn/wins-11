@@ -51,7 +51,7 @@ const Applayout = ({ app, children, isActivated }: Props) => {
       //    16.5 * 1.8 for windows header height = 79.2
       const windowHeaderAndTaskbarHeight = 79.2;
 
-      if (+offset[1] < windowHeight - windowHeaderAndTaskbarHeight && +offset[1] > -30) {
+      if (+offset[1] < windowHeight - windowHeaderAndTaskbarHeight && +offset[1] > 0) {
         appPos.y.set(+offset[1]);
 
         setPos((prevValue) => ({ ...prevValue, y: +offset[1] }));

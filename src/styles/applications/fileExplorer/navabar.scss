@@ -19,6 +19,10 @@
       background-color: transparent;
       img {
         width: 1.1rem;
+        opacity: 0.6;
+        &.active {
+          opacity: 1;
+        }
       }
       &.forward {
         img {
@@ -38,11 +42,11 @@
   }
   .path-field {
     @include flex(center);
+    padding-left: 0.5rem;
+    margin-right: 0.7%;
     position: relative;
     height: 2.25em;
     width: 20rem;
-    margin-right: 0.7%;
-    padding-left: 0.5rem;
     flex-grow: 1;
     border: 1px solid rgba(122, 122, 122, 0.37);
     img.folder-icon {
@@ -65,24 +69,26 @@
         @include flex(center);
         margin-left: 0.5rem;
         height: 1.4rem;
-        width: 70%;
+        max-width: 70%;
+        width: fit-content;
         padding-right: 0.25rem;
         overflow: hidden;
         .root-item {
           @include hover;
           @include flex(center);
           height: 100%;
+          padding-right: 0.25rem;
           min-width: fit-content;
           margin-right: 0.25rem;
-          border-radius: 0;
           img {
-            margin: auto 0.25rem;
-            width: 0.6rem;
+            margin: auto 0.3rem;
+            width: 0.5rem;
             transform: rotate(-90deg);
           }
           p {
             color: $mainHeader;
             font-size: 0.7rem;
+            line-height: 1;
             white-space: nowrap;
             min-width: min-content;
           }
@@ -91,19 +97,18 @@
     }
 
     .buttons {
+      @include flex(center);
       position: absolute;
       inset: 0 0 auto auto;
       height: 100%;
-      @include flex(center);
       button {
         @include center;
         @include hover;
-        width: 8rem;
         column-gap: 0.425rem;
         margin-right: 0.2rem;
         height: 100%;
-        border-radius: 0;
         width: 2.2rem;
+        border-radius: 2px;
         background-color: transparent;
         img {
           width: 0.9rem;
@@ -130,12 +135,12 @@
       opacity: 0.3;
     }
     input {
-      background-color: transparent;
-      color: $mainHeader;
       width: 80%;
       height: 0.8rem;
-      font-size: 0.7rem;
+      color: $mainHeader;
       line-height: 0.75rem;
+      font-size: 0.7rem;
+      background-color: transparent;
     }
   }
 }

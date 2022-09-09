@@ -29,6 +29,7 @@
     img {
       margin-top: -10%;
       width: 132.5%;
+      max-height: 6.25rem;
     }
     p {
       margin-top: -0.5rem;
@@ -40,5 +41,13 @@
       word-break: keep-all;
       word-wrap: break-word;
     }
+  }
+  .main-container-empty-text {
+    margin: 1rem auto auto 50%;
+    transform: translateX(-50%);
+    color: $mainHeader;
+    font-size: 0.75rem;
+    font-weight: 300;
+    opacity: 0.75;
   }
 }

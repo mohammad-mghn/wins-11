@@ -5,6 +5,7 @@ import "../../../styles/applications/fileExplorer/main.scss";
 import { fileExplorerActions } from "../../../store/fileExplorer";
 function Main() {
   const dispatch = useDispatch();
+
   const fileExplorer = useSelector((state: RootState) => state.fileExplorer);
 
   const folders = fileExplorer.folders.filter((item) => {
@@ -17,25 +18,30 @@ function Main() {
     }
   });
 
-  const cdHandler = (path: string) => {
-    dispatch(fileExplorerActions.changePath(path));
+  const cdHandler = (e: any, path: string) => {
+    if (e.detail === 2) {
+      dispatch(fileExplorerActions.changePath(path));
+    }
   };
 
   return (
     <div className="fe-main-container">
-      {folders.map((item, index) => (
-        <div
-          className="main-container-item"
-          key={index}
-          onClick={() => {
-            cdHandler(item.path);
-          }}
-        >
-          <img src={folderIcon} alt="" />
-          <p>{item.header}</p>
-          {/* <p>jrodan-shopping-app</p> */}
-        </div>
-      ))}
+      {folders.length > 0 ? (
+        folders.map((item, index) => (
+          <div
+            className="main-container-item"
+            key={index}
+            onClick={(e) => {
+              cdHandler(e, item.path);
+            }}
+          >
+            <img src={item.icon ? item.icon : folderIcon} alt="" />
+            <p>{item.header}</p>
+          </div>
+        ))
+      ) : (
+        <div className="main-container-empty-text">This folder is empty</div>
+      )}
     </div>
   );
 }

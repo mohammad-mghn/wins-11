@@ -1,0 +1,77 @@
+"filename", "language", "TypeScript", "JSON with Comments", "Markdown", "JSON", "SCSS", "CSS", "TypeScript React", "HTML", "XML", "comment", "blank", "total"
+"c:\Vito\wins11\.d.ts", "TypeScript", 15, 0, 0, 0, 0, 0, 0, 0, 0, 0, 1, 16
+"c:\Vito\wins11\README.md", "Markdown", 0, 0, 38, 0, 0, 0, 0, 0, 0, 0, 33, 71
+"c:\Vito\wins11\package-lock.json", "JSON", 0, 0, 0, 29514, 0, 0, 0, 0, 0, 0, 1, 29515
+"c:\Vito\wins11\package.json", "JSON", 0, 0, 0, 53, 0, 0, 0, 0, 0, 0, 1, 54
+"c:\Vito\wins11\public\index.html", "HTML", 0, 0, 0, 0, 0, 0, 0, 17, 0, 0, 1, 18
+"c:\Vito\wins11\public\manifest.json", "JSON", 0, 0, 0, 25, 0, 0, 0, 0, 0, 0, 1, 26
+"c:\Vito\wins11\src\App.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 3, 8
+"c:\Vito\wins11\src\assists\icons\battery-charging.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 11, 0, 1, 12
+"c:\Vito\wins11\src\assists\icons\battery-empty.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"c:\Vito\wins11\src\assists\icons\battey-full.svg", "XML", 0, 0, 0, 0, 0, 0, 0, 0, 3, 0, 1, 4
+"c:\Vito\wins11\src\components\appLayout\appHeader.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 42, 0, 0, 0, 6, 48
+"c:\Vito\wins11\src\components\appLayout\applayout.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 108, 0, 0, 15, 25, 148
+"c:\Vito\wins11\src\components\layout\layout.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 6, 26
+"c:\Vito\wins11\src\components\layout\layoutRouter.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 19, 0, 0, 0, 7, 26
+"c:\Vito\wins11\src\components\main\index.ts", "TypeScript", 2, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 4
+"c:\Vito\wins11\src\components\main\main.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 40, 0, 0, 0, 11, 51
+"c:\Vito\wins11\src\components\power\powerMode.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 67, 0, 0, 8, 13, 88
+"c:\Vito\wins11\src\components\signIn\signIn.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 104, 0, 0, 1, 19, 124
+"c:\Vito\wins11\src\components\startMenu\startMenu.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 79, 0, 0, 6, 19, 104
+"c:\Vito\wins11\src\components\startMenu\startMenuApp.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 9, 0, 0, 0, 2, 11
+"c:\Vito\wins11\src\components\startMenu\startMenuAppRecently.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 12, 0, 0, 0, 2, 14
+"c:\Vito\wins11\src\components\startMenu\startMenuButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 8, 26
+"c:\Vito\wins11\src\components\status\batteryStatus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 30, 0, 0, 1, 9, 40
+"c:\Vito\wins11\src\components\status\index.ts", "TypeScript", 12, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 14
+"c:\Vito\wins11\src\components\status\languageStatus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 6, 0, 0, 0, 3, 9
+"c:\Vito\wins11\src\components\status\networkStatus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 7, 25
+"c:\Vito\wins11\src\components\status\powerOptions.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 88, 0, 0, 5, 14, 107
+"c:\Vito\wins11\src\components\status\volumeStatus.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 21, 0, 0, 0, 6, 27
+"c:\Vito\wins11\src\components\taskbar\calendarSection.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 4, 0, 0, 0, 1, 5
+"c:\Vito\wins11\src\components\taskbar\date&time.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 29, 0, 0, 0, 9, 38
+"c:\Vito\wins11\src\components\taskbar\languageBar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 4, 14
+"c:\Vito\wins11\src\components\taskbar\runningBar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 11, 0, 0, 0, 5, 16
+"c:\Vito\wins11\src\components\taskbar\statusbar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 17, 0, 0, 0, 3, 20
+"c:\Vito\wins11\src\components\taskbar\taskbar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 89, 0, 0, 1, 15, 105
+"c:\Vito\wins11\src\components\taskbar\taskbarApp.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 20, 0, 0, 0, 5, 25
+"c:\Vito\wins11\src\components\taskbar\widgetButton.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 10, 0, 0, 0, 4, 14
+"c:\Vito\wins11\src\components\windowsApps\edge\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 38, 0, 0, 0, 12, 50
+"c:\Vito\wins11\src\components\windowsApps\edge\tabs.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 68, 0, 0, 4, 14, 86
+"c:\Vito\wins11\src\components\windowsApps\edge\toolbar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 119, 0, 0, 0, 20, 139
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\fileExplorer.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 3, 0, 0, 0, 1, 4
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\header.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 58, 0, 0, 0, 3, 61
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 18, 0, 0, 0, 3, 21
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\main.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 38, 0, 0, 1, 5, 44
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\navbar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 99, 0, 0, 1, 12, 112
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\sidebar.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 5, 0, 0, 0, 3, 8
+"c:\Vito\wins11\src\index.css", "CSS", 0, 0, 0, 0, 0, 29, 0, 0, 0, 4, 5, 38
+"c:\Vito\wins11\src\index.tsx", "TypeScript React", 0, 0, 0, 0, 0, 0, 20, 0, 0, 2, 3, 25
+"c:\Vito\wins11\src\modules\applications.ts", "TypeScript", 185, 0, 0, 0, 0, 0, 0, 0, 0, 5, 9, 199
+"c:\Vito\wins11\src\modules\clock.ts", "TypeScript", 24, 0, 0, 0, 0, 0, 0, 0, 0, 2, 9, 35
+"c:\Vito\wins11\src\modules\date.ts", "TypeScript", 42, 0, 0, 0, 0, 0, 0, 0, 0, 1, 12, 55
+"c:\Vito\wins11\src\modules\globalStyles.ts", "TypeScript", 13, 0, 0, 0, 0, 0, 0, 0, 0, 0, 2, 15
+"c:\Vito\wins11\src\modules\themes.ts", "TypeScript", 20, 0, 0, 0, 0, 0, 0, 0, 0, 0, 3, 23
+"c:\Vito\wins11\src\store\apps-slice.ts", "TypeScript", 76, 0, 0, 0, 0, 0, 0, 0, 0, 0, 27, 103
+"c:\Vito\wins11\src\store\edge-slice.ts", "TypeScript", 140, 0, 0, 0, 0, 0, 0, 0, 0, 0, 18, 158
+"c:\Vito\wins11\src\store\fileExplorer.ts", "TypeScript", 46, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 54
+"c:\Vito\wins11\src\store\index.ts", "TypeScript", 23, 0, 0, 0, 0, 0, 0, 0, 0, 0, 6, 29
+"c:\Vito\wins11\src\store\main-slice.ts", "TypeScript", 35, 0, 0, 0, 0, 0, 0, 0, 0, 0, 8, 43
+"c:\Vito\wins11\src\store\signin-slice.ts", "TypeScript", 40, 0, 0, 0, 0, 0, 0, 0, 0, 0, 9, 49
+"c:\Vito\wins11\src\store\user-slice.ts", "TypeScript", 19, 0, 0, 0, 0, 0, 0, 0, 0, 0, 7, 26
+"c:\Vito\wins11\src\styles\appLayout.scss", "SCSS", 0, 0, 0, 0, 74, 0, 0, 0, 0, 0, 2, 76
+"c:\Vito\wins11\src\styles\applications\edge\edge.scss", "SCSS", 0, 0, 0, 0, 44, 0, 0, 0, 0, 0, 2, 46
+"c:\Vito\wins11\src\styles\applications\edge\tabs.scss", "SCSS", 0, 0, 0, 0, 124, 0, 0, 0, 0, 0, 3, 127
+"c:\Vito\wins11\src\styles\applications\edge\toolbar.scss", "SCSS", 0, 0, 0, 0, 179, 0, 0, 0, 0, 0, 6, 185
+"c:\Vito\wins11\src\styles\applications\fileExplorer\fileExplorer.scss", "SCSS", 0, 0, 0, 0, 18, 0, 0, 0, 0, 0, 3, 21
+"c:\Vito\wins11\src\styles\applications\fileExplorer\header.scss", "SCSS", 0, 0, 0, 0, 102, 0, 0, 0, 0, 0, 2, 104
+"c:\Vito\wins11\src\styles\applications\fileExplorer\main.scss", "SCSS", 0, 0, 0, 0, 43, 0, 0, 0, 0, 0, 2, 45
+"c:\Vito\wins11\src\styles\applications\fileExplorer\navabar.scss", "SCSS", 0, 0, 0, 0, 141, 0, 0, 0, 0, 0, 3, 144
+"c:\Vito\wins11\src\styles\main.scss", "SCSS", 0, 0, 0, 0, 14, 0, 0, 0, 0, 0, 1, 15
+"c:\Vito\wins11\src\styles\power.scss", "SCSS", 0, 0, 0, 0, 19, 0, 0, 0, 0, 0, 2, 21
+"c:\Vito\wins11\src\styles\powerOptions.scss", "SCSS", 0, 0, 0, 0, 35, 0, 0, 0, 0, 0, 2, 37
+"c:\Vito\wins11\src\styles\signIn.scss", "SCSS", 0, 0, 0, 0, 192, 0, 0, 0, 0, 0, 2, 194
+"c:\Vito\wins11\src\styles\startMenu.scss", "SCSS", 0, 0, 0, 0, 222, 0, 0, 0, 0, 2, 5, 229
+"c:\Vito\wins11\src\styles\taskbar.scss", "SCSS", 0, 0, 0, 0, 163, 0, 0, 0, 0, 4, 2, 169
+"c:\Vito\wins11\src\styles\variables.scss", "SCSS", 0, 0, 0, 0, 58, 0, 0, 0, 0, 0, 10, 68
+"c:\Vito\wins11\tsconfig.json", "JSON with Comments", 0, 21, 0, 0, 0, 0, 0, 0, 0, 1, 1, 23
+"Total", "-", 692, 21, 38, 29592, 1428, 29, 1342, 17, 17, 64, 498, 33738

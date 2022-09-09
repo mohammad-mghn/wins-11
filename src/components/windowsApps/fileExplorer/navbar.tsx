@@ -1,3 +1,9 @@
+import { useState, useEffect, ReactElement, SetStateAction } from "react";
+
+import { RootState } from "../../../store/index";
+import { useSelector, useDispatch } from "react-redux";
+import { fileExplorerActions } from "../../../store/fileExplorer";
+
 import arrowIcon from "../../../assists/icons/arrow.png";
 import searchIcon from "../../../assists/icons/search.png";
 import refreshIcon from "../../../assists/icons/refresh.png";
@@ -5,36 +11,37 @@ import fileIcon from "../../../assists/icons/folder-empty.png";
 import arrowTriangleIcon from "../../../assists/icons/arrow-triangle.png";
 
 import "../../../styles/applications/fileExplorer/navabar.scss";
-import { useSelector, useDispatch } from "react-redux";
-import { RootState } from "../../../store/index";
-import { useState } from "react";
-import { fileExplorerActions } from "../../../store/fileExplorer";
+
 function Navbar() {
   const dispatch = useDispatch();
 
-  const path = useSelector((state: RootState) => state.fileExplorer.path);
+  // stands for file explorer
+  const FE = useSelector((state: RootState) => state.fileExplorer);
 
-  const [root, setRoot] = useState(path);
+  // state for manual root changing
+  const [root, setRoot] = useState(FE.path);
+
+  // state for path manual section ablity
   const [pathChangeActivated, setPathChangeActivated] = useState(false);
 
-  const changePathHandler = (e: any) => {
+  useEffect(() => {
+    setRoot(FE.path);
+  }, [FE.path]);
+
+  // Handlers
+
+  const changePathHandler = (e: { preventDefault: () => void; }) => {
     e.preventDefault();
 
     dispatch(fileExplorerActions.changePath(root));
-  };
 
-  const pathInputChangeHandler = (e: any) => {
-    setRoot(e.target.value);
-  };
-
-  const pathChangeActivatedHandler = () => {
-    setPathChangeActivated((prevValue) => !prevValue);
+    setPathChangeActivated(false);
   };
 
   const rootItemHandler = (index: number) => {
     dispatch(
       fileExplorerActions.changePath(
-        path
+        FE.path
           .split("/")
           .slice(0, index + 1)
           .join("/")
@@ -42,31 +49,56 @@ function Navbar() {
     );
   };
 
+  const pathInputChangeHandler = (e: { target: { value: SetStateAction<string>; }; }) => {
+    setRoot(e.target.value);
+  };
+
+  const pathChangeActivatedHandler = () => {
+    setPathChangeActivated(true);
+  };
+
+  const backwardhandler = () => {
+    dispatch(fileExplorerActions.backward());
+  };
+
+  const forwardhandler = () => {
+    dispatch(fileExplorerActions.forward());
+  };
+
+  const rootHandler = () => {
+    dispatch(fileExplorerActions.rootHandler());
+  };
+
   return (
     <div className="file-explorer-container">
       <div className="navigators-container">
-        <button>
-          <img src={arrowIcon} alt="" className="icon" />
+        <button onClick={backwardhandler}>
+          <img src={arrowIcon} alt="" className={FE.past.length !== 0 ? "active icon" : "icon"} />
         </button>
-        <button className="forward">
-          <img src={arrowIcon} alt="" className="icon" />
+        <button className="forward" onClick={forwardhandler}>
+          <img src={arrowIcon} alt="" className={FE.future.length !== 0 ? "active icon" : "icon"} />
         </button>
         <button className="down">
           <img src={arrowTriangleIcon} alt="" className="icon" />
         </button>
         <button className="up">
-          <img src={arrowIcon} alt="" className="icon" />
+          <img src={arrowIcon} alt="" onClick={rootHandler} className={FE.past.length !== 0 ? "active icon" : "icon"} />
         </button>
       </div>
       <div className="path-field">
         <img src={fileIcon} alt="" className="folder-icon" />
-        <form onSubmit={changePathHandler}>
+        
+        <form onSubmit={changePathHandler} onClick={pathChangeActivatedHandler}>
           {pathChangeActivated ? (
-            <input type="text" value={root} onChange={pathInputChangeHandler} />
+            <input type="text" defaultValue={FE.path} onChange={pathInputChangeHandler} value={root} />
           ) : (
-            // <div className="root-container" onClick={pathChangeActivatedHandler}>
-            <div className="root-container">
-              {path.split("/").map(
+            <div
+              className="root-container"
+              onClick={(e: any) => {
+                e.stopPropagation();
+              }}
+            >
+              {FE.path.split("/").map(
                 (item: string, index: number) =>
                   item && (
                     <div

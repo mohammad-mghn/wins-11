@@ -7,16 +7,19 @@ import store from "./store";
 import { GlobalStyles } from "./modules/globalStyles";
 import { DefaultTheme } from "./modules/themes";
 import "./index.css";
+import { BrowserRouter } from "react-router-dom";
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <React.StrictMode>
-    <Provider store={store}>
-      <ThemeProvider theme={DefaultTheme}>
-        <GlobalStyles />
-        <App />
-      </ThemeProvider>
-    </Provider>
+    <BrowserRouter>
+      <Provider store={store}>
+        <ThemeProvider theme={DefaultTheme}>
+          <GlobalStyles />
+          <App />
+        </ThemeProvider>
+      </Provider>
+    </BrowserRouter>
   </React.StrictMode>
 );
 

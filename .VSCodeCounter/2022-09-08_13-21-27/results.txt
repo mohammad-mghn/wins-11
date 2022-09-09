@@ -1,0 +1,129 @@
+Date : 2022-09-08 13:21:27
+Directory : c:\Vito\wins11
+Total : 75 files,  33176 codes, 64 comments, 498 blanks, all 33738 lines
+
+Languages
++--------------------+------------+------------+------------+------------+------------+
+| language           | files      | code       | comment    | blank      | total      |
++--------------------+------------+------------+------------+------------+------------+
+| JSON               |          3 |     29,592 |          0 |          3 |     29,595 |
+| SCSS               |         15 |      1,428 |          6 |         47 |      1,481 |
+| TypeScript React   |         35 |      1,342 |         45 |        282 |      1,669 |
+| TypeScript         |         15 |        692 |          8 |        123 |        823 |
+| Markdown           |          1 |         38 |          0 |         33 |         71 |
+| CSS                |          1 |         29 |          4 |          5 |         38 |
+| JSON with Comments |          1 |         21 |          1 |          1 |         23 |
+| HTML               |          1 |         17 |          0 |          1 |         18 |
+| XML                |          3 |         17 |          0 |          3 |         20 |
++--------------------+------------+------------+------------+------------+------------+
+
+Directories
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| path                                                                    | files      | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+| .                                                                       |         75 |     33,176 |         64 |        498 |     33,738 |
+| public                                                                  |          2 |         42 |          0 |          2 |         44 |
+| src                                                                     |         68 |      3,493 |         63 |        459 |      4,015 |
+| src\assists                                                             |          3 |         17 |          0 |          3 |         20 |
+| src\assists\icons                                                       |          3 |         17 |          0 |          3 |         20 |
+| src\components                                                          |         35 |      1,331 |         43 |        280 |      1,654 |
+| src\components\appLayout                                                |          2 |        150 |         15 |         31 |        196 |
+| src\components\layout                                                   |          2 |         39 |          0 |         13 |         52 |
+| src\components\main                                                     |          2 |         42 |          0 |         13 |         55 |
+| src\components\power                                                    |          1 |         67 |          8 |         13 |         88 |
+| src\components\signIn                                                   |          1 |        104 |          1 |         19 |        124 |
+| src\components\startMenu                                                |          4 |        118 |          6 |         31 |        155 |
+| src\components\status                                                   |          6 |        175 |          6 |         41 |        222 |
+| src\components\taskbar                                                  |          8 |        190 |          1 |         46 |        237 |
+| src\components\windowsApps                                              |          9 |        446 |          6 |         73 |        525 |
+| src\components\windowsApps\edge                                         |          3 |        225 |          4 |         46 |        275 |
+| src\components\windowsApps\fileExplorer                                 |          6 |        221 |          2 |         27 |        250 |
+| src\modules                                                             |          5 |        284 |          8 |         35 |        327 |
+| src\store                                                               |          7 |        379 |          0 |         83 |        462 |
+| src\styles                                                              |         15 |      1,428 |          6 |         47 |      1,481 |
+| src\styles\applications                                                 |          7 |        651 |          0 |         21 |        672 |
+| src\styles\applications\edge                                            |          3 |        347 |          0 |         11 |        358 |
+| src\styles\applications\fileExplorer                                    |          4 |        304 |          0 |         10 |        314 |
++-------------------------------------------------------------------------+------------+------------+------------+------------+------------+
+
+Files
++-------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| filename                                                                | language           | code       | comment    | blank      | total      |
++-------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
+| c:\Vito\wins11\.d.ts                                                    | TypeScript         |         15 |          0 |          1 |         16 |
+| c:\Vito\wins11\README.md                                                | Markdown           |         38 |          0 |         33 |         71 |
+| c:\Vito\wins11\package-lock.json                                        | JSON               |     29,514 |          0 |          1 |     29,515 |
+| c:\Vito\wins11\package.json                                             | JSON               |         53 |          0 |          1 |         54 |
+| c:\Vito\wins11\public\index.html                                        | HTML               |         17 |          0 |          1 |         18 |
+| c:\Vito\wins11\public\manifest.json                                     | JSON               |         25 |          0 |          1 |         26 |
+| c:\Vito\wins11\src\App.tsx                                              | TypeScript React   |          5 |          0 |          3 |          8 |
+| c:\Vito\wins11\src\assists\icons\battery-charging.svg                   | XML                |         11 |          0 |          1 |         12 |
+| c:\Vito\wins11\src\assists\icons\battery-empty.svg                      | XML                |          3 |          0 |          1 |          4 |
+| c:\Vito\wins11\src\assists\icons\battey-full.svg                        | XML                |          3 |          0 |          1 |          4 |
+| c:\Vito\wins11\src\components\appLayout\appHeader.tsx                   | TypeScript React   |         42 |          0 |          6 |         48 |
+| c:\Vito\wins11\src\components\appLayout\applayout.tsx                   | TypeScript React   |        108 |         15 |         25 |        148 |
+| c:\Vito\wins11\src\components\layout\layout.tsx                         | TypeScript React   |         20 |          0 |          6 |         26 |
+| c:\Vito\wins11\src\components\layout\layoutRouter.tsx                   | TypeScript React   |         19 |          0 |          7 |         26 |
+| c:\Vito\wins11\src\components\main\index.ts                             | TypeScript         |          2 |          0 |          2 |          4 |
+| c:\Vito\wins11\src\components\main\main.tsx                             | TypeScript React   |         40 |          0 |         11 |         51 |
+| c:\Vito\wins11\src\components\power\powerMode.tsx                       | TypeScript React   |         67 |          8 |         13 |         88 |
+| c:\Vito\wins11\src\components\signIn\signIn.tsx                         | TypeScript React   |        104 |          1 |         19 |        124 |
+| c:\Vito\wins11\src\components\startMenu\startMenu.tsx                   | TypeScript React   |         79 |          6 |         19 |        104 |
+| c:\Vito\wins11\src\components\startMenu\startMenuApp.tsx                | TypeScript React   |          9 |          0 |          2 |         11 |
+| c:\Vito\wins11\src\components\startMenu\startMenuAppRecently.tsx        | TypeScript React   |         12 |          0 |          2 |         14 |
+| c:\Vito\wins11\src\components\startMenu\startMenuButton.tsx             | TypeScript React   |         18 |          0 |          8 |         26 |
+| c:\Vito\wins11\src\components\status\batteryStatus.tsx                  | TypeScript React   |         30 |          1 |          9 |         40 |
+| c:\Vito\wins11\src\components\status\index.ts                           | TypeScript         |         12 |          0 |          2 |         14 |
+| c:\Vito\wins11\src\components\status\languageStatus.tsx                 | TypeScript React   |          6 |          0 |          3 |          9 |
+| c:\Vito\wins11\src\components\status\networkStatus.tsx                  | TypeScript React   |         18 |          0 |          7 |         25 |
+| c:\Vito\wins11\src\components\status\powerOptions.tsx                   | TypeScript React   |         88 |          5 |         14 |        107 |
+| c:\Vito\wins11\src\components\status\volumeStatus.tsx                   | TypeScript React   |         21 |          0 |          6 |         27 |
+| c:\Vito\wins11\src\components\taskbar\calendarSection.tsx               | TypeScript React   |          4 |          0 |          1 |          5 |
+| c:\Vito\wins11\src\components\taskbar\date&time.tsx                     | TypeScript React   |         29 |          0 |          9 |         38 |
+| c:\Vito\wins11\src\components\taskbar\languageBar.tsx                   | TypeScript React   |         10 |          0 |          4 |         14 |
+| c:\Vito\wins11\src\components\taskbar\runningBar.tsx                    | TypeScript React   |         11 |          0 |          5 |         16 |
+| c:\Vito\wins11\src\components\taskbar\statusbar.tsx                     | TypeScript React   |         17 |          0 |          3 |         20 |
+| c:\Vito\wins11\src\components\taskbar\taskbar.tsx                       | TypeScript React   |         89 |          1 |         15 |        105 |
+| c:\Vito\wins11\src\components\taskbar\taskbarApp.tsx                    | TypeScript React   |         20 |          0 |          5 |         25 |
+| c:\Vito\wins11\src\components\taskbar\widgetButton.tsx                  | TypeScript React   |         10 |          0 |          4 |         14 |
+| c:\Vito\wins11\src\components\windowsApps\edge\index.tsx                | TypeScript React   |         38 |          0 |         12 |         50 |
+| c:\Vito\wins11\src\components\windowsApps\edge\tabs.tsx                 | TypeScript React   |         68 |          4 |         14 |         86 |
+| c:\Vito\wins11\src\components\windowsApps\edge\toolbar.tsx              | TypeScript React   |        119 |          0 |         20 |        139 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\fileExplorer.tsx | TypeScript React   |          3 |          0 |          1 |          4 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\header.tsx       | TypeScript React   |         58 |          0 |          3 |         61 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\index.tsx        | TypeScript React   |         18 |          0 |          3 |         21 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\main.tsx         | TypeScript React   |         38 |          1 |          5 |         44 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\navbar.tsx       | TypeScript React   |         99 |          1 |         12 |        112 |
+| c:\Vito\wins11\src\components\windowsApps\fileExplorer\sidebar.tsx      | TypeScript React   |          5 |          0 |          3 |          8 |
+| c:\Vito\wins11\src\index.css                                            | CSS                |         29 |          4 |          5 |         38 |
+| c:\Vito\wins11\src\index.tsx                                            | TypeScript React   |         20 |          2 |          3 |         25 |
+| c:\Vito\wins11\src\modules\applications.ts                              | TypeScript         |        185 |          5 |          9 |        199 |
+| c:\Vito\wins11\src\modules\clock.ts                                     | TypeScript         |         24 |          2 |          9 |         35 |
+| c:\Vito\wins11\src\modules\date.ts                                      | TypeScript         |         42 |          1 |         12 |         55 |
+| c:\Vito\wins11\src\modules\globalStyles.ts                              | TypeScript         |         13 |          0 |          2 |         15 |
+| c:\Vito\wins11\src\modules\themes.ts                                    | TypeScript         |         20 |          0 |          3 |         23 |
+| c:\Vito\wins11\src\store\apps-slice.ts                                  | TypeScript         |         76 |          0 |         27 |        103 |
+| c:\Vito\wins11\src\store\edge-slice.ts                                  | TypeScript         |        140 |          0 |         18 |        158 |
+| c:\Vito\wins11\src\store\fileExplorer.ts                                | TypeScript         |         46 |          0 |          8 |         54 |
+| c:\Vito\wins11\src\store\index.ts                                       | TypeScript         |         23 |          0 |          6 |         29 |
+| c:\Vito\wins11\src\store\main-slice.ts                                  | TypeScript         |         35 |          0 |          8 |         43 |
+| c:\Vito\wins11\src\store\signin-slice.ts                                | TypeScript         |         40 |          0 |          9 |         49 |
+| c:\Vito\wins11\src\store\user-slice.ts                                  | TypeScript         |         19 |          0 |          7 |         26 |
+| c:\Vito\wins11\src\styles\appLayout.scss                                | SCSS               |         74 |          0 |          2 |         76 |
+| c:\Vito\wins11\src\styles\applications\edge\edge.scss                   | SCSS               |         44 |          0 |          2 |         46 |
+| c:\Vito\wins11\src\styles\applications\edge\tabs.scss                   | SCSS               |        124 |          0 |          3 |        127 |
+| c:\Vito\wins11\src\styles\applications\edge\toolbar.scss                | SCSS               |        179 |          0 |          6 |        185 |
+| c:\Vito\wins11\src\styles\applications\fileExplorer\fileExplorer.scss   | SCSS               |         18 |          0 |          3 |         21 |
+| c:\Vito\wins11\src\styles\applications\fileExplorer\header.scss         | SCSS               |        102 |          0 |          2 |        104 |
+| c:\Vito\wins11\src\styles\applications\fileExplorer\main.scss           | SCSS               |         43 |          0 |          2 |         45 |
+| c:\Vito\wins11\src\styles\applications\fileExplorer\navabar.scss        | SCSS               |        141 |          0 |          3 |        144 |
+| c:\Vito\wins11\src\styles\main.scss                                     | SCSS               |         14 |          0 |          1 |         15 |
+| c:\Vito\wins11\src\styles\power.scss                                    | SCSS               |         19 |          0 |          2 |         21 |
+| c:\Vito\wins11\src\styles\powerOptions.scss                             | SCSS               |         35 |          0 |          2 |         37 |
+| c:\Vito\wins11\src\styles\signIn.scss                                   | SCSS               |        192 |          0 |          2 |        194 |
+| c:\Vito\wins11\src\styles\startMenu.scss                                | SCSS               |        222 |          2 |          5 |        229 |
+| c:\Vito\wins11\src\styles\taskbar.scss                                  | SCSS               |        163 |          4 |          2 |        169 |
+| c:\Vito\wins11\src\styles\variables.scss                                | SCSS               |         58 |          0 |         10 |         68 |
+| c:\Vito\wins11\tsconfig.json                                            | JSON with Comments |         21 |          1 |          1 |         23 |
+| Total                                                                   |                    |     33,176 |         64 |        498 |     33,738 |
++-------------------------------------------------------------------------+--------------------+------------+------------+------------+------------+
