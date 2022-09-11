@@ -9,9 +9,17 @@ type appType = {
   Component: () => ReactElement;
 };
 
+type notification = {
+  title: string;
+  time: string;
+  mainheader: string;
+  details: string;
+};
+
 type initialStateType = {
   volume: number;
-  notifications: string[];
+  notifications: notification[];
+  rightPanel: boolean;
   IsStartMenuVisiable: boolean;
   pinnedTaskbarApps: appType[];
   pinnedStartMenuApps: appType[];
@@ -20,7 +28,15 @@ type initialStateType = {
 
 const initialState: initialStateType = {
   volume: 90,
-  notifications: ["2"],
+  notifications: [
+    {
+      title: "Visual Studio Code",
+      time: "5:09 PM",
+      mainheader: "New Update",
+      details: "New Update is ready to install",
+    },
+  ],
+  rightPanel: false,
   IsStartMenuVisiable: false,
   pinnedTaskbarApps: [...pinnedAppsInTaskbar],
   pinnedStartMenuApps: [...pinnedAppsInStartMenu],
@@ -33,6 +49,16 @@ const mainSlice = createSlice({
   reducers: {
     toggleStartMenu: (state, action) => {
       state.IsStartMenuVisiable = action.payload;
+    },
+    toggleRightPanel: (state, action) => {
+      if (action.payload !== undefined) {
+        state.rightPanel = action.payload;
+      } else {
+        state.rightPanel = !state.rightPanel;
+      }
+    },
+    clearAllNotifications: (state) => {
+      state.notifications = [];
     },
   },
 });

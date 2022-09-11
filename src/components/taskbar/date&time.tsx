@@ -1,11 +1,12 @@
-import  { useEffect } from "react";
+import { useEffect } from "react";
 
 import { clockHandler } from "../../modules/clock";
 import { dateHandler } from "../../modules/date";
 
-import { useSelector } from "react-redux";
+import { useSelector, useDispatch } from "react-redux";
 
 import "../../styles/taskbar.scss";
+import { mainActions } from "../../store/main-slice";
 
 type RootState = {
   main: {
@@ -13,9 +14,11 @@ type RootState = {
       length: number;
     };
   };
-}
+};
 
 const DateTime = () => {
+  const dispatch = useDispatch();
+
   const notificationsLength = useSelector((state: RootState) => state.main.notifications.length);
 
   useEffect(() => {
@@ -23,8 +26,12 @@ const DateTime = () => {
     dateHandler(true, "date--time-date");
   }, []);
 
+  const showRightPanelHandler = () => {
+    dispatch(mainActions.toggleRightPanel(undefined));
+  };
+
   return (
-    <div className="date--time-container">
+    <div className="date--time-container" onClick={showRightPanelHandler}>
       <div className="date--time-data-container">
         <div id="date--time-clock" />
         <div id="date--time-date" />

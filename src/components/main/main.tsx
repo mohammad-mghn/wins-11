@@ -9,6 +9,7 @@ import Applayout from "../appLayout/applayout";
 import { Applications } from "../../modules/applications";
 
 import "../../styles/main.scss";
+import RightPanel from "../rightPanel";
 
 const Main = () => {
   const Running = useSelector((state: RootState) => state.apps);
@@ -40,7 +41,8 @@ const Main = () => {
 
   return (
     <div className="main">
-      <div className="main-runningApp">{runningApps}</div>
+      <div className="mainrunningApp">{runningApps}</div>
+      <RightPanel />
       <StartMenu />
       <Taskbar />
     </div>

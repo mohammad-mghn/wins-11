@@ -4,17 +4,19 @@ import Edge from "../components/windowsApps/edge";
 import RecycleBinComponent from "../components/windowsApps/recycleBin";
 import FileExplorer from "../components/windowsApps/fileExplorer/index";
 import VSCode from "../components/windowsApps/VSCode/index";
+import Notepad from "../components/windowsApps/notepad/index";
+import Mail from "../components/windowsApps/mail/index";
 
 // Applications images
 
 import Explorer from "../assists/icons/explorer.png";
 import Eadge from "../assists/icons/eadge.png";
 import Settings from "../assists/icons/settings.png";
-import Mail from "../assists/icons/mail.png";
+import MailIcon from "../assists/icons/mail.png";
 import RecycleBin from "../assists/icons/recycle-bin.png";
 import Store from "../assists/icons/store.png";
 import Spotify from "../assists/icons/spotify.png";
-import Notepad from "../assists/icons/notepad.png";
+import NotepadIcon from "../assists/icons/notepad.png";
 import Board from "../assists/icons/board.png";
 import VSCodeIcon from "../assists/icons/vscode.png";
 
@@ -36,8 +38,8 @@ export const Applications = [
     name: "Settings",
   },
   {
-    icon: Mail,
-    Component: FileExplorer,
+    icon: MailIcon,
+    Component: Mail,
     name: "Mail",
   },
   {
@@ -56,14 +58,9 @@ export const Applications = [
     name: "Spotiy",
   },
   {
-    icon: Notepad,
-    Component: FileExplorer,
+    icon: NotepadIcon,
+    Component: Notepad,
     name: "Notepad",
-  },
-  {
-    icon: Board,
-    Component: FileExplorer,
-    name: "White Board",
   },
   {
     icon: VSCodeIcon,
@@ -90,8 +87,8 @@ export const pinnedAppsInStartMenu = [
     name: "Settings",
   },
   {
-    icon: Mail,
-    Component: FileExplorer,
+    icon: MailIcon,
+    Component: Mail,
     name: "Mail",
   },
   {
@@ -110,14 +107,9 @@ export const pinnedAppsInStartMenu = [
     name: "Spotiy",
   },
   {
-    icon: Notepad,
-    Component: FileExplorer,
+    icon: NotepadIcon,
+    Component: Notepad,
     name: "Notepad",
-  },
-  {
-    icon: Board,
-    Component: FileExplorer,
-    name: "White Board",
   },
 ];
 
@@ -139,8 +131,8 @@ export const pinnedAppsInTaskbar = [
     name: "Settings",
   },
   {
-    icon: Mail,
-    Component: FileExplorer,
+    icon: MailIcon,
+    Component: Mail,
     name: "Mail",
   },
   {
@@ -154,8 +146,8 @@ export const pinnedAppsInTaskbar = [
     name: "Microsoft Storeasdfa",
   },
   {
-    icon: Notepad,
-    Component: FileExplorer,
+    icon: NotepadIcon,
+    Component: Notepad,
     name: "Notepad",
   },
   {
@@ -178,8 +170,8 @@ export const recommendedAppsInStartMenu = [
     name: "Settings",
   },
   {
-    icon: Mail,
-    Component: FileExplorer,
+    icon: MailIcon,
+    Component: Mail,
     name: "Mail",
   },
   {
