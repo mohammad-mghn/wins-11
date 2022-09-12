@@ -1,0 +1,34 @@
+"filename", "language", "JSON", "TypeScript", "TypeScript React", "SCSS", "comment", "blank", "total"
+"c:\Vito\wins11\package.json", "JSON", 1, 0, 0, 0, 0, 0, 1
+"c:\Vito\wins11\src\App.tsx", "TypeScript React", 0, 0, 5, 0, 0, 0, 5
+"c:\Vito\wins11\src\components\main\main.tsx", "TypeScript React", 0, 0, 2, 0, 0, 0, 2
+"c:\Vito\wins11\src\components\rightPanel\clock-date-popup.tsx", "TypeScript React", 0, 0, 131, 0, 6, 23, 160
+"c:\Vito\wins11\src\components\rightPanel\index.tsx", "TypeScript React", 0, 0, 36, 0, 6, 11, 53
+"c:\Vito\wins11\src\components\rightPanel\notifications.tsx", "TypeScript React", 0, 0, 39, 0, 0, 9, 48
+"c:\Vito\wins11\src\components\taskbar\date&time.tsx", "TypeScript React", 0, 0, 5, 0, 0, 2, 7
+"c:\Vito\wins11\src\components\windowsApps\VSCode\index.tsx", "TypeScript React", 0, 0, 9, 0, 0, 3, 12
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\extendCollapseSection.tsx", "TypeScript React", 0, 0, 63, 0, 0, 11, 74
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\fileExplorer.tsx", "TypeScript React", 0, 0, 21, 0, 0, 8, 29
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\index.tsx", "TypeScript React", 0, 0, -9, 0, 0, 0, -9
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\main.tsx", "TypeScript React", 0, 0, 9, 0, -1, 6, 14
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\navbar.tsx", "TypeScript React", 0, 0, 15, 0, 3, 11, 29
+"c:\Vito\wins11\src\components\windowsApps\fileExplorer\sidebar.tsx", "TypeScript React", 0, 0, 10, 0, 0, 2, 12
+"c:\Vito\wins11\src\components\windowsApps\mail\index.tsx", "TypeScript React", 0, 0, 12, 0, 0, 3, 15
+"c:\Vito\wins11\src\components\windowsApps\notepad\header.tsx", "TypeScript React", 0, 0, 14, 0, 0, 3, 17
+"c:\Vito\wins11\src\components\windowsApps\notepad\index.tsx", "TypeScript React", 0, 0, 11, 0, 0, 3, 14
+"c:\Vito\wins11\src\components\windowsApps\recycleBin\index.tsx", "TypeScript React", 0, 0, 5, 0, 0, 3, 8
+"c:\Vito\wins11\src\index.tsx", "TypeScript React", 0, 0, 3, 0, 0, 0, 3
+"c:\Vito\wins11\src\modules\applications.ts", "TypeScript", 0, -5, 0, 0, 0, -1, -6
+"c:\Vito\wins11\src\modules\folders.ts", "TypeScript", 0, 146, 0, 0, 0, 2, 148
+"c:\Vito\wins11\src\modules\sidebar-array.ts", "TypeScript", 0, 99, 0, 0, 0, 2, 101
+"c:\Vito\wins11\src\store\fileExplorer.ts", "TypeScript", 0, 23, 0, 0, 13, 13, 49
+"c:\Vito\wins11\src\store\main-slice.ts", "TypeScript", 0, 25, 0, 0, 0, 1, 26
+"c:\Vito\wins11\src\styles\applications\fileExplorer\fileExplorer.scss", "SCSS", 0, 0, 0, -6, 0, -1, -7
+"c:\Vito\wins11\src\styles\applications\fileExplorer\main.scss", "SCSS", 0, 0, 0, 9, 0, 0, 9
+"c:\Vito\wins11\src\styles\applications\fileExplorer\navabar.scss", "SCSS", 0, 0, 0, 3, 0, 0, 3
+"c:\Vito\wins11\src\styles\applications\fileExplorer\sidebarMenuSection.scss", "SCSS", 0, 0, 0, 70, 0, 2, 72
+"c:\Vito\wins11\src\styles\applications\mail\mail.scss", "SCSS", 0, 0, 0, 9, 0, 2, 11
+"c:\Vito\wins11\src\styles\applications\notepad\notepad.scss", "SCSS", 0, 0, 0, 40, 0, 2, 42
+"c:\Vito\wins11\src\styles\applications\vscode\vscode.scss", "SCSS", 0, 0, 0, 6, 0, 2, 8
+"c:\Vito\wins11\src\styles\rightPanel\rightPanel.scss", "SCSS", 0, 0, 0, 183, 0, 2, 185
+"Total", "-", 1, 288, 381, 314, 27, 124, 1135

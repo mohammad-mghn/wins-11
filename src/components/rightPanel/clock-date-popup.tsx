@@ -15,8 +15,23 @@ function ClockDatePopup() {
   const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(date.getMonth());
   const [currentYearIndex, setCurrentYearIndex] = useState<number>(date.getFullYear());
 
-  // make array of month's days so check if month is 30 days or 31 then we need subtract one because currentMonthIndex stars from 0
-  const monthDays = Array.apply(0, new Array(currentMonthIndex < 6 ? 30 : 29));
+  // make array of month's days so check if month is 30 days or 31
+  const monthDays = Array.apply(0, new Array(currentMonthIndex < 6 ? 31 : 30));
+
+  // make array for previous month
+  const previousDays = Array.apply(0, new Array(startIndex));
+
+  // make array for next month
+  const nextDays = Array.apply(
+    0,
+    new Array(
+      monthDays.length + previousDays.length <= 35
+        ? 35 - monthDays.length - previousDays.length
+        : monthDays.length + previousDays.length < 42
+        ? 7 - (monthDays.length + previousDays.length - 35)
+        : 0
+    )
+  );
 
   const months = [
     "January",
@@ -33,6 +48,10 @@ function ClockDatePopup() {
     "December",
   ];
 
+  // check if previous month is 31 day or 30 but we need to add 1 to both because array starting at 0
+  const PreviousMonthDayMount = currentMonthIndex - 1 < 6 ? (currentMonthIndex === 0 ? 31 : 32) : 31;
+
+  console.log(previousDays, monthDays);
   useEffect(() => {
     dateHandler(false, "clock-and-date-box");
   }, []);
@@ -132,22 +151,33 @@ function ClockDatePopup() {
         <div>Sa</div>
       </div>
       <div className="month-days-container">
-        <div className="month-day" style={{ marginLeft: `${startIndex * 2.97}rem` }}>
-          1
-        </div>
+        {previousDays.map((item, index) => {
+          return (
+            <div className="month-day disabled" onClick={decreaseMonth}>
+              {PreviousMonthDayMount + index - startIndex}
+            </div>
+          );
+        })}
         {monthDays.map((item, index) => {
           return (
             <div
               className={`month-day ${
                 currentYearIndex === date.getFullYear() &&
                 currentMonthIndex === date.getMonth() &&
-                index + 2 === date.getDate()
+                index + 1 === date.getDate()
                   ? "active"
                   : ""
               }`}
             >
-              {/* we need to add 2 to each index becasse index stars from 0 which we don't have and we add first one manually */}
-              {index + 2}
+              {/* we need to add 2 to each index becasse index stars from 0 */}
+              {index + 1}
+            </div>
+          );
+        })}
+        {nextDays.map((item, index) => {
+          return (
+            <div className="month-day disabled" onClick={decreaseMonth}>
+              {index + 1}
             </div>
           );
         })}

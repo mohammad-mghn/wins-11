@@ -107,6 +107,9 @@
         color: color-contrast($mainHeader);
         background-color: $personalizedColor;
       }
+      &.disabled {
+        opacity: 0.5;
+      }
     }
   }
 }
