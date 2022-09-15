@@ -4,10 +4,10 @@ import { RootState } from "../../store";
 import { mainActions } from "../../store/main-slice";
 import { useSelector, useDispatch } from "react-redux";
 
+import Notifications from "./notifications";
 import ClockDatePopup from "./clock-date-popup";
 
 import "../../styles/rightPanel/rightPanel.scss";
-import Notifications from "./notifications";
 
 function RightPanel() {
   const dispatch = useDispatch();

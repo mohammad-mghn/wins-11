@@ -1,12 +1,23 @@
 import { createSlice } from "@reduxjs/toolkit";
 import { ReactElement } from "react";
 
-import { pinnedAppsInTaskbar, pinnedAppsInStartMenu, recommendedAppsInStartMenu } from "../modules/applications";
+import {
+  pinnedAppsInTaskbar,
+  desktopApps,
+  pinnedAppsInStartMenu,
+  recommendedAppsInStartMenu,
+} from "../modules/applications";
 
 type appType = {
   icon: string;
   name: string;
   Component: () => ReactElement;
+};
+
+type desktopAppType = {
+  icon: string;
+  name: string;
+  path?: string;
 };
 
 type notification = {
@@ -20,14 +31,16 @@ type initialStateType = {
   volume: number;
   notifications: notification[];
   rightPanel: boolean;
+  PopUpControlPanel: boolean;
   IsStartMenuVisiable: boolean;
+  desktopApps: desktopAppType[];
   pinnedTaskbarApps: appType[];
   pinnedStartMenuApps: appType[];
   recommendedAppsinStartMenu: appType[];
 };
 
 const initialState: initialStateType = {
-  volume: 90,
+  volume: 75,
   notifications: [
     {
       title: "Visual Studio Code",
@@ -37,7 +50,9 @@ const initialState: initialStateType = {
     },
   ],
   rightPanel: false,
+  PopUpControlPanel: false,
   IsStartMenuVisiable: false,
+  desktopApps: [...desktopApps],
   pinnedTaskbarApps: [...pinnedAppsInTaskbar],
   pinnedStartMenuApps: [...pinnedAppsInStartMenu],
   recommendedAppsinStartMenu: [...recommendedAppsInStartMenu],
@@ -57,8 +72,18 @@ const mainSlice = createSlice({
         state.rightPanel = !state.rightPanel;
       }
     },
+    toggleControlPanel: (state, action) => {
+      if (action.payload !== undefined) {
+        state.PopUpControlPanel = action.payload;
+      } else {
+        state.PopUpControlPanel = !state.PopUpControlPanel;
+      }
+    },
     clearAllNotifications: (state) => {
       state.notifications = [];
+    },
+    changeVolumeHandler: (state, action) => {
+      state.volume = action.payload;
     },
   },
 });

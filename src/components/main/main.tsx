@@ -3,13 +3,15 @@ import { useEffect } from "react";
 import { RootState } from "../../store";
 import { useSelector } from "react-redux";
 
+import Desktop from "../desktop";
+import RightPanel from "../rightPanel";
 import Taskbar from "../taskbar/taskbar";
 import StartMenu from "../startMenu/startMenu";
 import Applayout from "../appLayout/applayout";
+import PopUpControlPanel from "../popUpControlPanel";
 import { Applications } from "../../modules/applications";
 
 import "../../styles/main.scss";
-import RightPanel from "../rightPanel";
 
 const Main = () => {
   const Running = useSelector((state: RootState) => state.apps);
@@ -40,10 +42,12 @@ const Main = () => {
   }, []);
 
   return (
-    <div className="main">
+    <div className="main" id="main">
       <div className="mainrunningApp">{runningApps}</div>
+      <PopUpControlPanel />
       <RightPanel />
       <StartMenu />
+      <Desktop />
       <Taskbar />
     </div>
   );

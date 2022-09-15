@@ -85,6 +85,12 @@ export const folders = [
     icon: undefined,
   },
   {
+    name: "vito-portfolio-main",
+    header: "vito-portfolio-main",
+    path: "This PC:/desktop/portfolio",
+    icon: undefined,
+  },
+  {
     name: "program files(x86)",
     header: "Program Files (x86)",
     path: "C:/Program Files(x86)",

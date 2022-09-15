@@ -47,7 +47,6 @@ const Taskbar = () => {
     dispatch(appsActions.runMinimizedApp(name));
   };
 
-
   const PinnedTaskbarApps = pinnedApps.map((item, index) => {
     // check that app is running, or minimized, so will check states
     const existingInRunningApps = runningApps.find((Item) => Item.name === item.name);
@@ -67,11 +66,9 @@ const Taskbar = () => {
           } else {
             if (existingInRunningApps) {
               if (existingInRunningApps.isActivated) {
-                console.log("f");
                 runMinimizedApp(item.name);
               } else {
                 activeApp(item.name);
-                console.log("fd");
               }
             } else {
               runApp(item.name);

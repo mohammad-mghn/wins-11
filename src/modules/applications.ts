@@ -10,6 +10,8 @@ import Mail from "../components/windowsApps/mail/index";
 // Applications images
 
 import Explorer from "../assists/icons/explorer.png";
+import Folder from "../assists/icons/folder-empty.png";
+import ThisPC from "../assists/icons/this-pc.png";
 import Eadge from "../assists/icons/eadge.png";
 import Settings from "../assists/icons/settings.png";
 import MailIcon from "../assists/icons/mail.png";
@@ -65,7 +67,7 @@ export const Applications = [
   {
     icon: VSCodeIcon,
     Component: VSCode,
-    name: "VSCode",
+    name: "Visual Studio Code",
   },
 ];
 
@@ -153,7 +155,41 @@ export const pinnedAppsInTaskbar = [
   {
     icon: VSCodeIcon,
     Component: VSCode,
-    name: "VSCode",
+    name: "Visual Studio Code",
+  },
+];
+
+export const desktopApps = [
+  {
+    icon: ThisPC,
+    path: "This PC:",
+    name: "This PC",
+  },
+  {
+    icon: RecycleBin,
+    name: "Recycle bin",
+  },
+  {
+    icon: Eadge,
+    name: "Edge",
+  },
+  {
+    icon: VSCodeIcon,
+    name: "Visual Studio Code",
+  },
+  {
+    icon: NotepadIcon,
+    name: "Notepad",
+  },
+  {
+    icon: Folder,
+    path: "This PC:/desktop/wins-11-github",
+    name: "Wins 11 github",
+  },
+  {
+    icon: Folder,
+    path: "This PC:/desktop/portfolio",
+    name: "vito-portfolio-main",
   },
 ];
 

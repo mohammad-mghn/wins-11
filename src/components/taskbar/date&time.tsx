@@ -3,10 +3,10 @@ import { useEffect } from "react";
 import { clockHandler } from "../../modules/clock";
 import { dateHandler } from "../../modules/date";
 
+import { mainActions } from "../../store/main-slice";
 import { useSelector, useDispatch } from "react-redux";
 
 import "../../styles/taskbar.scss";
-import { mainActions } from "../../store/main-slice";
 
 type RootState = {
   main: {

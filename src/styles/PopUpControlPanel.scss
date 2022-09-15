@@ -1,0 +1,165 @@
+@import "./variables.scss";
+
+.pop-up-control-panel-container {
+  @include blur-bg-darker;
+  @include flex;
+  padding: 1rem;
+  position: absolute;
+  z-index: 8;
+  width: 22.5rem;
+  height: 30rem;
+  flex-wrap: wrap;
+  gap: 1.25rem 4.5%;
+  align-content: flex-start;
+  overflow: hidden;
+  color: $mainHeader;
+  border-radius: 0.5rem;
+  border: 1px solid $appBorder;
+  transition: all 500ms ease-in-out;
+  background-color: rgba(115, 115, 115, 0.257);
+  &.active {
+    inset: auto 0.75rem 4em auto;
+  }
+  &.disabled {
+    inset: auto -100% 4em auto;
+  }
+  .control-button {
+    height: 5rem;
+    width: 30%;
+    &.activated {
+      button {
+        background-color: $personalizedColor;
+      }
+      img {
+        filter: invert(0);
+      }
+    }
+    button {
+      @include blur-bg-dark;
+      margin: 0.5rem auto;
+      width: 6.25rem;
+      height: 3rem;
+      border-radius: 6px;
+      border: 1px solid $appBorder;
+      background-color: transparent;
+
+      img {
+        height: 1rem;
+      }
+    }
+    div {
+      width: 100%;
+      text-align: center;
+      font-size: 0.75rem;
+      color: $mainHeader;
+    }
+  }
+  .range-inputs {
+    margin-top: 0.5rem;
+    width: 100%;
+    .range-input {
+      height: 3rem;
+      @include flex(center);
+      input {
+        margin-left: 1rem;
+        width: 85%;
+        appearance: none;
+        -webkit-appearance: none;
+        background: transparent;
+        border-radius: 5px;
+        &::-webkit-slider-runnable-track {
+          height: 0.3rem;
+          border-radius: 4px;
+        }
+        &::-webkit-slider-thumb {
+          -webkit-appearance: none;
+          appearance: none;
+          background: $personalizedColor;
+          margin-top: -0.3rem;
+          border-radius: 100%;
+          height: 1.1rem;
+          width: 1.1rem;
+          border: 4px solid #575777;
+        }
+      }
+      img {
+        width: 1.15rem;
+        &.controlPanel-volume {
+          width: 1rem;
+        }
+      }
+    }
+  }
+  .footer {
+    @include flex(center, space-between);
+    padding: 0 1rem;
+    height: 3rem;
+    width: 100%;
+    position: absolute;
+    inset: auto auto 0 0;
+    background-color: rgba(0, 0, 0, 0.393);
+    .left {
+      @include flex(center);
+      span {
+        font-size: 0.7rem;
+      }
+      .controlpanel-battery-status {
+        margin-right: 0.25rem;
+        position: relative;
+        display: grid;
+        place-items: center;
+        width: 1.35rem;
+        height: 1.35rem;
+        .controlpanel-battery-back {
+          position: absolute;
+          inset: 50% auto auto 0.125rem;
+          transform: translateY(-50%);
+          width: 1.1rem;
+          height: 1.1rem;
+        }
+        .controlpanel-battery-filled-container {
+          position: absolute;
+          inset: 50% auto auto 0.125rem;
+          transform: translateY(-50%);
+          height: 1.1rem;
+          overflow: hidden;
+          img {
+            position: absolute;
+            margin-top: 0.035rem;
+            width: 1.02rem;
+            height: 1.02rem;
+          }
+        }
+        .controlpanel-charging-container {
+          position: absolute;
+          inset: 0.2rem auto auto -0.01rem;
+          img {
+            height: 0.75rem;
+          }
+        }
+      }
+    }
+    .right {
+      @include flex(center);
+      column-gap: 1rem;
+      height: fit-content;
+      img {
+        width: 1.15rem;
+      }
+    }
+  }
+}
+body::after {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  opacity: 0;
+  display: block;
+  height: 100%;
+  width: 100%;
+  z-index: 99999999999;
+  background: #ff00003b;
+  pointer-events: none;
+  transition: all 2s ease;
+}

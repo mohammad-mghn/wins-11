@@ -4,7 +4,7 @@ import batteryBack from "../../assists/icons/battery-empty.svg";
 import batteryFilled from "../../assists/icons/battey-full.svg";
 import batteryCharge from "../../assists/icons/battery-charging.svg";
 
-const BatteryStatus = ({ PREFIX }: { PREFIX: string }) => {
+const BatteryStatus = ({ PREFIX }: { PREFIX?: string }) => {
   const [isCharging, setIsCharging] = useState(false);
 
   // for battery percentage img's width with rem unit
