@@ -1,70 +1,37 @@
-# Getting Started with Create React App
+# <img src="https://emojis.slackmojis.com/emojis/images/1643515120/11400/among-us-party.gif?1643515120" width="25"/> Windows 11 online with ReactJS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This open source project is made in the hope to replicate the Windows 11 desktop experience on web for having fun for minutes, using standard web technologies such as ReactJs, Ts, and SCSS. 
 
-## Available Scripts
+## Notice
 
-In the project directory, you can run:
+> This project is **not in anyway affiliated with Microsoft** and **should not be confused with Microsoft’s Operating System** or Products.
+> This is **not** a Windows 365 cloud PC.
 
-### `npm start`
+## Check it
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+> [wins-11.vercel.app](https://wins-11.vercel.app)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Technologies
 
-### `npm test`
+<p>
+  <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-00D1B4?style=flat-square&logo=styled-components&logoColor=white" />
+  <img alt="Wins-11" src="https://img.shields.io/badge/-Wins_11-00C4E0?style=flat-square&logo=windows-11&logoColor=white" />
+  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
+  <img alt="Css3" src="https://img.shields.io/badge/-Css3-2088FF?style=flat-square&logo=css3&logoColor=white" />
+  <img alt="Ts" src="https://img.shields.io/badge/-Ts-003BFF?style=flat-square&logo=typescript&logoColor=white" />
+  <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-5849BE?style=flat-square&logo=vercel&logoColor=white" />
+  <img alt="Figma" src="https://img.shields.io/badge/-Figma-311C87?style=flat-square&logo=figma&logoColor=white" />
+  <img alt="Redux" src="https://img.shields.io/badge/-Redux-9B00CA?style=flat-square&logo=redux&logoColor=white" />
+  <img alt="Sass" src="https://img.shields.io/badge/-Sass-FF00D1?style=flat-square&logo=sass&logoColor=white" />
+  <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
+  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
+  <img alt="Yarn" src="https://img.shields.io/badge/-Yarn-DD0031?style=flat-square&logo=Yarn&logoColor=white" />
+  <img alt="Framer-motion" src="https://img.shields.io/badge/-framer_motion-ff0000?style=flat-square&logo=framer&logoColor=white" />
+</p>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## I'm still working on project, and make better and better
 
-### `npm run build`
+> So why you don't become one of contributors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Preview and Features
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
