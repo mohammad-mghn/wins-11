@@ -53,7 +53,7 @@ This open source project is created in the hope of replicating the Windows 11 de
 
 ### Add tabs as much as you want 
 
-![Preview](/preview/11.png)
+![Preview](/preview/12.png)
 
 ### Notifications, and perfect calendar
 
