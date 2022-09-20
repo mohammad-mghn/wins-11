@@ -47,6 +47,14 @@ This open source project is created in the hope of replicating the Windows 11 de
 
 ![Preview](/preview/3.png)
 
+### Browse websites with abled iframe on edge browser 
+
+![Preview](/preview/11.png)
+
+### Add tabs as much as you want 
+
+![Preview](/preview/11.png)
+
 ### Notifications, and perfect calendar
 
 ![Preview](/preview/4.png)
