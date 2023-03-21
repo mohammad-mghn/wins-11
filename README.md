@@ -111,7 +111,7 @@ MIT © [vito-mohagheghian](https://github.com/vito-mohagheghian)
 
 ## <img src="https://slackmojis.com/emojis/10677-among_us/download" width="25"/> Socials
 
-<a href="https://github.com/vito-mohagheghian" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-DD0031?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://twitter.com/hereisvito" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a> <a href="https://www.linkedin.com/in/mohammad-mohagheghian-5a8160214/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-FB542B?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://www.instagram.com/vito.mohagheghian/" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instargam-e51097?&style=for-the-badge&logo=instagram&logoColor=white" /></a>
+<a href="https://github.com/vito-mohagheghian" target="_blank"><img alt="Github" src="https://img.shields.io/badge/GitHub-DD0031?&style=for-the-badge&logo=Github&logoColor=white" /></a> <a href="https://twitter.com/hereisvito" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a> <a href="https://www.linkedin.com/in/vito-mohagheghian/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-FB542B?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://www.instagram.com/vito.mohagheghian/" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instargam-e51097?&style=for-the-badge&logo=instagram&logoColor=white" /></a>
 
 -----
 <div align="center">
