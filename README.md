@@ -1,6 +1,6 @@
-# <img src="https://emojis.slackmojis.com/emojis/images/1643515120/11400/among-us-party.gif?1643515120" width="25"/> Windows 11 online with ReactJS
+# <img src="https://emojis.slackmojis.com/emojis/images/1643515120/11400/among-us-party.gif?1643515120" width="25"/> Windows 11 online with React.JS
 
-This open source project is created in the hope of replicating the Windows 11 desktop experience on the web for having fun for minutes, using standard web technologies such as ReactJs, Ts, and SCSS. 
+This open source project is created in the hope of replicating the Windows 11 desktop experience on the web for having fun for minutes, using standard web technologies such as React.Js, Ts, and SCSS. 
 
 ## <img src="https://slackmojis.com/emojis/12724-among_us_report/download" width="25"/> Notice
 
