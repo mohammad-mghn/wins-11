@@ -9,7 +9,7 @@ This open source project is created in the hope of replicating the Windows 11 de
 
 ## <img src="https://slackmojis.com/emojis/12349-among_us_pet/download" width="25"/> Check it Online On Vercel
 
-> [wins-11.vercel.app](https://wins-11.vercel.app)
+> [wins11.ir](https://wins11.ir)
 
 ## <img src="https://slackmojis.com/emojis/11386-among_us_orange_dance/download" width="25"/> Technologies
 
