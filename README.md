@@ -7,7 +7,7 @@ This open source project is created in the hope of replicating the Windows 11 de
 > This project is **not in any way affiliated with Microsoft** and **should not be confused with Microsoft’s Operating System** or Products.
 > **This is **not** a Windows 365 cloud PC.9**
 
-## <img src="https://slackmojis.com/emojis/12349-among_us_pet/download" width="25"/> Check it Online On Vercel
+## <img src="https://slackmojis.com/emojis/12349-among_us_pet/download" width="25"/> Check it Online
 
 > [wins11.ir](https://wins11.ir)
 
