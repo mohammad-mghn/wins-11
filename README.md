@@ -87,9 +87,9 @@ This open source project is created in the hope of replicating the Windows 11 de
 ## Run locally 
 
 ```bash
-npm run dev
+npm run start
 # or
-yarn dev
+yarn start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result, however, due to privacy reasons, it's not available.  
