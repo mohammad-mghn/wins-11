@@ -8,17 +8,21 @@ import { GlobalStyles } from "./modules/globalStyles";
 import { DefaultTheme } from "./modules/themes";
 import "./index.css";
 import { BrowserRouter } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 const root = ReactDOM.createRoot(document.getElementById("root")!);
 root.render(
   <React.StrictMode>
     <BrowserRouter>
-      <Provider store={store}>
-        <ThemeProvider theme={DefaultTheme}>
-          <GlobalStyles />
-          <App />
-        </ThemeProvider>
-      </Provider>
+      <>
+        <Provider store={store}>
+          <ThemeProvider theme={DefaultTheme}>
+            <GlobalStyles />
+            <App />
+          </ThemeProvider>
+        </Provider>
+        <Analytics />
+      </>
     </BrowserRouter>
   </React.StrictMode>
 );

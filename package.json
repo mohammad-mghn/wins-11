@@ -13,6 +13,7 @@
     "@types/react-dom": "^18.0.6",
     "@types/styled-components": "^5.1.26",
     "@use-gesture/react": "^10.2.18",
+    "@vercel/analytics": "^1.0.1",
     "foundation-sites": "6.6.1",
     "node-sass": "^7.0.1",
     "re-resizable": "^6.9.9",

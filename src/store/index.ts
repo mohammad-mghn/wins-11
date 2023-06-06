@@ -17,6 +17,7 @@ const store = configureStore({
     edge: edgeAppSlice.reducer,
     fileExplorer: fileExplorerSlice.reducer,
   },
+  devTools: process.env.NODE_ENV !== "production", // disable devTools in production
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
       serializableCheck: false,
