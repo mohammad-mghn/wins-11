@@ -59,8 +59,8 @@ const initialState: sliceType = {
     },
     {
       logo: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6b61CNVBi57OFfU9LY6XPY9toX9Em20M-8w&usqp=CAU",
-      header: "Coffee be de",
-      urls: ["https://coffeebede.ir/vitovito"],
+      header: "Coffee be de (Support)",
+      urls: ["https://www.coffeebede.com/vitomohagheghian"],
       currentURLIndex: 0,
       backward: false,
       forward: false,
