@@ -1,124 +1,105 @@
-# <img src="https://emojis.slackmojis.com/emojis/images/1643515120/11400/among-us-party.gif?1643515120" width="25"/> Windows 11 online with React.JS
+# Welcome to Wins-11 Simulator Web App 🪟
 
-This open source project is created in the hope of replicating the Windows 11 desktop experience on the web for having fun for minutes, using standard web technologies such as React.Js, Ts, and SCSS. 
+![Wins-11 Simulator Banner](preview/1.png)
 
-## <img src="https://slackmojis.com/emojis/12724-among_us_report/download" width="25"/> Notice
+**Wins-11 Simulator** is a captivating web application that brings the nostalgic experience of the classic Windows 11 operating system right to your browser. With the power of modern web technologies like React.js and Redux, this simulator offers a seamless and interactive journey down memory lane. Whether you're feeling nostalgic or curious about the past, Wins-11 Simulator is here to take you on a visually appealing and functionally rich adventure.
 
-> This project is **not in any way affiliated with Microsoft** and **should not be confused with Microsoft’s Operating System** or Products.
-> **This is **not** a Windows 365 cloud PC.9**
+## Table of Contents
 
-## <img src="https://slackmojis.com/emojis/12349-among_us_pet/download" width="25"/> Check it Online
+- ✨ [Features](#-features)
+- 📦 [Techs](#-techs)
+- 🖥️ [Preview](#-preview)
+- 📸 [Gallery](#-gallery)
+- 🚀 [Demo](#-demo)
+- 🔨 [Getting Started](#-getting-started)
+  - 🔩 [Prerequisites](#-prerequisites) 
+  - 📦 [Installation](#-installation)
+- 🎮 [Usage](#-usage)
+- 📺 [Support and Social Media](#-support-and-social-media)
+- 🧑‍💻 [Developers](#-developers)
+- 🙏 [Acknowledgements](#-acknowledgements)
+- 💡 [Wish List](#-wish-list)
+- 📜 [License](#-license)
 
-> [wins11.ir](https://wins11.ir)
+## ✨ Features
 
-## <img src="https://slackmojis.com/emojis/11386-among_us_orange_dance/download" width="25"/> Technologies
+- Familiar Desktop Environment: Experience the iconic Windows 11 desktop, complete with a Start menu, taskbar, and daily usage apps.
+- Web-Based: Access the simulator directly from your browser, without the need for any downloads or installations.
+- Browsing: You literally can browse in your broswer.
+- 🔄 Redux-powered State Management: Enjoy a smooth and responsive user interface with the help of Redux for efficient state management.
+- Detail-oriented: In implementation, attention has been given to details.
 
-<p>
-  <img alt="Styled Components" src="https://img.shields.io/badge/-Styled_Components-00D1B4?style=flat-square&logo=styled-components&logoColor=white" />
-  <img alt="Wins-11" src="https://img.shields.io/badge/-Wins_11-00C4E0?style=flat-square&logo=windows-11&logoColor=white" />
-  <img alt="React" src="https://img.shields.io/badge/-React-45b8d8?style=flat-square&logo=react&logoColor=white" />
-  <img alt="Css3" src="https://img.shields.io/badge/-Css3-2088FF?style=flat-square&logo=css3&logoColor=white" />
-  <img alt="Ts" src="https://img.shields.io/badge/-Ts-003BFF?style=flat-square&logo=typescript&logoColor=white" />
-  <img alt="Vercel" src="https://img.shields.io/badge/-Vercel-5849BE?style=flat-square&logo=vercel&logoColor=white" />
-  <img alt="Figma" src="https://img.shields.io/badge/-Figma-311C87?style=flat-square&logo=figma&logoColor=white" />
-  <img alt="Redux" src="https://img.shields.io/badge/-Redux-9B00CA?style=flat-square&logo=redux&logoColor=white" />
-  <img alt="Sass" src="https://img.shields.io/badge/-Sass-FF00D1?style=flat-square&logo=sass&logoColor=white" />
-  <img alt="Prettier" src="https://img.shields.io/badge/-Prettier-F7B93E?style=flat-square&logo=prettier&logoColor=white" />
-  <img alt="git" src="https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white" />
-  <img alt="Yarn" src="https://img.shields.io/badge/-Yarn-DD0031?style=flat-square&logo=Yarn&logoColor=white" />
-  <img alt="Framer-motion" src="https://img.shields.io/badge/-framer_motion-ff0000?style=flat-square&logo=framer&logoColor=white" />
-</p>
+## 📦 Techs
 
-## <img src="https://slackmojis.com/emojis/10796-among_us_party/download" width="25"/> I'm still working on a project and making better and better
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" width="48" title="React.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Redux.svg" width="48" title="Redux.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg" width="48" title="TypeScript">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg" width="48" title="Sass">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg" width="48" title="Git">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vercel-Dark.svg" width="48" title="Vercel">
 
-> So why you don't become one of the contributors
+## 🖥 Preview
 
-## <img src="https://slackmojis.com/emojis/12726-space_float/download" width="25"/> Preview and Features
+Here's a sneak peek of what the Wins-11 Simulator looks like:
 
-### Draggable lock screen, and see device battery level, is charging or not, and network status
+![Wins-11 Simulator Preview](/preview/2.png)
 
-![Preview](/preview/1.png)
+## 📸 Gallery 
 
+For more pictures check out [Preview Gallery](preview.md).
 
-![Preview](/preview/2.png)
+## 🚀 Demo
 
+Check out the live demo of the Wins-11 Simulator [here](https://wins-11.ir).
 
-### File explorer with navigation bar just like windows, that you can change manually or use buttons. with back and forward buttons
+## 🔨 Getting Started   
 
-![Preview](/preview/3.png)
+### 🔩 Prerequisites
 
-### Browse websites with abled iframe on edge browser 
+- react (18.2.0)
+- react-redux (8.0.2)
+- sass (1.23.7)
+- @reduxjs/toolkit (1.8.2)
 
-![Preview](/preview/11.png)
+### 📩 Installation
 
-### Add tabs as much as you want 
-
-![Preview](/preview/12.png)
-
-### Notifications, and perfect calendar
-
-![Preview](/preview/4.png)
-
-### Modify brightness
-
-![Preview](/preview/5.png)
-
-### Turn on the night light
-
-![Preview](/preview/6.png)
-
-### Check repo codes in vscode
-
-![Preview](/preview/7.png)
-
-### Run apps in the start menu
-
-![Preview](/preview/8.png)
-
-
-### Or, SHut down, Sleep, Hibernate, and Restart the web app
-
-![Preview](/preview/9.png)
-
-### Enjoy shutting down 😂
-
-![Preview](/preview/10.png)
-
-## Run locally 
-
+1. Clone the repository:
 ```bash
-npm run start
-# or
-yarn start
+git clone https://github.com/yourusername/Wins-11-simulator.git
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result, however, due to privacy reasons, it's not available.  
+2. Navigate to the project directory:
+```bash
+cd Wins-11-simulator
+```
 
-## <img src="https://slackmojis.com/emojis/11401-among-us-dance/download" width="25"/> Wish List 
-<ul>
-<li> code settings, store, paint, clock, calculator, terminal, chrome, Microsoft teams, and camera applications </li>
-<li> create menu for edge browser </li>
-<li> make edit files and folders menu, and search bar functional in file explorer</li>
-<li> make light theme</li>
-<li> make API for tabs header in edge with back-end</li>
-<li> code right click for each section</li>
-<li> make it responsive</li>
-</ul>
+3. Install dependencies:
+```bash
+npm install
+```
 
-## <img src="https://slackmojis.com/emojis/11894-among-us-dead-body/download" width="25"/>  License
 
-MIT © [vito-mohagheghian](https://github.com/vito-mohagheghian)
+## 🎮 Usage
 
-## <img src="https://slackmojis.com/emojis/10677-among_us/download" width="25"/> Socials
+1. Start the development server: `yarn start`
+2. Open your browser and visit `http://localhost:3000` to access the simulator.
 
-<div align="center">
-<a href="https://www.linkedin.com/in/vito-mohagheghian/" target="_blank"><img alt="LinkedIn" src="https://img.shields.io/badge/linkedin-29146b?&style=for-the-badge&logo=linkedin&logoColor=white" /></a> <a href="https://dev.to/vitomohagheghian" target="_blank"><img alt="Github" src="https://img.shields.io/badge/Dev_To-7c31e3?&style=for-the-badge&logo=dev.to&logoColor=white" /></a> <a href="https://twitter.com/hereisvito" target="_blank"><img alt="Twitter" src="https://img.shields.io/badge/twitter-%231DA1F2.svg?&style=for-the-badge&logo=twitter&logoColor=white" /></a> <a href="https://codesandbox.io/u/vito-mohagheghian" target="_blank"><img alt="codesandbox" src="https://img.shields.io/badge/CodeSandBox-00C2CB.svg?&style=for-the-badge&logo=CodeSandBox&logoColor=white" /></a> 
- <a href="https://stackoverflow.com/users/16104004/vito-mohagheghian" target="_blank"><img alt="stackoverflow" src="https://img.shields.io/badge/stackoverflow-ff9900?&style=for-the-badge&logo=stackoverflow&logoColor=white" /></a> <a href="https://www.instagram.com/vito.mohagheghian/" target="_blank"><img alt="Instagram" src="https://img.shields.io/badge/Instargam-e33811?&style=for-the-badge&logo=instagram&logoColor=white" /></a> <a href="https://www.npmjs.com/~vito.mohagheghian" target="_blank"><img alt="NPM" src="https://img.shields.io/badge/NPM-cc0505?&style=for-the-badge&logo=NPM&logoColor=white" /></a>
-</div>
+## 📺 Support and Social Media
 
------
-<div align="center">
-<a href="https://www.coffeebede.com/vitomohagheghian">
-<img class="img-fluid" src="https://coffeebede.ir/DashboardTemplateV2/app-assets/images/banner/default-yellow.svg" width="200"/>
-</a>
-</div>
+- For support and inquiries, contact us at vito.mohagheghian@gmail.com.
+- Follow us on [Twitter](https://x.com/hereisvito) for updates and news.
+- For donations [Coffee be de ☕](https://www.coffeebede.com/vitomohagheghian)
+
+## 🧑‍💻 Developers
+
+- Vito Mohagheghian - [GitHub](https://github.com/vito-mohagheghian) - [LinkedIn](https://www.linkedin.com/in/vito-mohagheghian) - [X](https://x.com/hereisvito)
+
+## 💡 Wish List
+
+Help us make Wins-11 Simulator even better! Check out our [Wish List](wishlist.md) to see upcoming features and improvements.
+
+> it's in progress
+
+## 📜 License
+
+This project is licensed under the [MIT License](LICENSE).
+
+---
+<p align=center>
+I embarked on coding this project for the sheer joy of it and the opportunity to learn new things. Engaging in such projects exposes me to numerous challenges that ultimately enhance my skills.
+</p>
