@@ -41,7 +41,7 @@ Here's a sneak peek of what the Wins-11 Simulator looks like:
 
 ## 📸 Gallery 
 
-For more pictures check out [Preview Gallery](preview.md).
+For more pictures check out [Preview Gallery](gallery.md).
 
 ## 🚀 Demo
 
