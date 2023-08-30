@@ -25,7 +25,7 @@
 - Familiar Desktop Environment: Experience the iconic Windows 11 desktop, complete with a Start menu, taskbar, and daily usage apps.
 - Web-Based: Access the simulator directly from your browser, without the need for any downloads or installations.
 - Browsing: You literally can browse in your broswer.
-- 🔄 Redux-powered State Management: Enjoy a smooth and responsive user interface with the help of Redux for efficient state management.
+- Redux-powered State Management: Enjoy a smooth and responsive user interface with the help of Redux for efficient state management.
 - Detail-oriented: In implementation, attention has been given to details.
 
 ## 📦 Techs
