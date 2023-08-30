@@ -12,12 +12,11 @@
 - 📸 [Gallery](#-gallery)
 - 🚀 [Demo](#-demo)
 - 🔨 [Getting Started](#-getting-started)
-  - 🔩 [Prerequisites](#-prerequisites) 
+  - 🔩 [Packages](#-packages) 
   - 📦 [Installation](#-installation)
 - 🎮 [Usage](#-usage)
 - 📺 [Support and Social Media](#-support-and-social-media)
 - 🧑‍💻 [Developers](#-developers)
-- 🙏 [Acknowledgements](#-acknowledgements)
 - 💡 [Wish List](#-wish-list)
 - 📜 [License](#-license)
 
@@ -31,7 +30,7 @@
 
 ## 📦 Techs
 
-<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" width="48" title="React.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Redux.svg" width="48" title="Redux.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg" width="48" title="TypeScript">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg" width="48" title="Sass">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg" width="48" title="Git">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vercel-Dark.svg" width="48" title="Vercel">
+<img src="https://github.com/tandpfun/skill-icons/blob/main/icons/React-Dark.svg" width="48" title="React.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Redux.svg" width="48" title="Redux.Js">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/TypeScript.svg" width="48" title="TypeScript">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Sass.svg" width="48" title="Sass">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/StyledComponents.svg" width="48" title="StyledComponents">    <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Git.svg" width="48" title="Git">   <img src="https://github.com/tandpfun/skill-icons/blob/main/icons/Vercel-Dark.svg" width="48" title="Vercel">
 
 ## 🖥 Preview
 
@@ -49,7 +48,7 @@ Check out the live demo of the Wins-11 Simulator [here](https://wins-11.ir).
 
 ## 🔨 Getting Started   
 
-### 🔩 Prerequisites
+### 🔩 Packages
 
 - react (18.2.0)
 - react-redux (8.0.2)
@@ -60,17 +59,21 @@ Check out the live demo of the Wins-11 Simulator [here](https://wins-11.ir).
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/Wins-11-simulator.git
+git clone https://github.com/vito-mohagheghian/wins-11.git
 ```
 
 2. Navigate to the project directory:
 ```bash
-cd Wins-11-simulator
+cd wins-11
 ```
 
 3. Install dependencies:
 ```bash
 npm install
+
+# or 
+
+yarn
 ```
 
 
