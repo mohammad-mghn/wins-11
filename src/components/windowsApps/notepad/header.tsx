@@ -1,4 +1,4 @@
-import SettingsIcon from "../../../assists/icons/settings-outline.png";
+import SettingsIcon from "../../../assets/icons/settings-outline.png";
 
 function Header() {
   return (

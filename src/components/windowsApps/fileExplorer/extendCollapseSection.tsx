@@ -3,8 +3,8 @@ import { useState } from "react";
 import { useDispatch } from "react-redux";
 import { fileExplorerActions } from "../../../store/fileExplorer";
 
-import folderIcon from "../../../assists/icons/folder-empty.png";
-import ArrowIcon from "../../../assists/icons/arrow-triangle.png";
+import folderIcon from "../../../assets/icons/folder-empty.png";
+import ArrowIcon from "../../../assets/icons/arrow-triangle.png";
 
 import "../../../styles/applications/fileExplorer/sidebarMenuSection.scss";
 
@@ -20,7 +20,9 @@ interface Props {
 function SidebarMenuSection({ menu }: Props) {
   const dispatch = useDispatch();
 
-  const [Extended, setExtended] = useState(menu.children.length === 0 ? false : true);
+  const [Extended, setExtended] = useState(
+    menu.children.length === 0 ? false : true
+  );
 
   const ExtendedHandler = () => {
     setExtended((prevValue) => !prevValue);
@@ -33,7 +35,12 @@ function SidebarMenuSection({ menu }: Props) {
   return (
     <div className="sidebar-menu-section">
       <div className="sidebar-menu-header">
-        <img src={ArrowIcon} alt="" className={Extended ? "extended icon" : "icon"} onClick={ExtendedHandler} />
+        <img
+          src={ArrowIcon}
+          alt=""
+          className={Extended ? "extended icon" : "icon"}
+          onClick={ExtendedHandler}
+        />
         <img
           src={menu.icon ? menu.icon : folderIcon}
           alt=""

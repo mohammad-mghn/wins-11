@@ -1,9 +1,9 @@
 import { useEffect, useState } from "react";
 
-import Sleep from "../../assists/icons/moon.png";
-import Restart from "../../assists/icons/refresh.png";
-import Hibernate from "../../assists/icons/clock.png";
-import ShutDown from "../../assists/icons/shut-down.png";
+import Sleep from "../../assets/icons/moon.png";
+import Restart from "../../assets/icons/refresh.png";
+import Hibernate from "../../assets/icons/clock.png";
+import ShutDown from "../../assets/icons/shut-down.png";
 
 import { useDispatch } from "react-redux";
 import { signInActions } from "../../store/signin-slice";
@@ -38,7 +38,9 @@ const PowerOptions = ({ Pos }: { Pos: string }) => {
 
         const closeHandler = (event: any) => {
           // check if click contains into power options or not
-          var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
+          var isClickInsideElement = ignoreClickOnMeElement.contains(
+            event.target
+          );
 
           // if didn't contain pop up close the pop up else set true
           if (!isClickInsideElement) {
@@ -60,7 +62,11 @@ const PowerOptions = ({ Pos }: { Pos: string }) => {
       </button>
 
       {options && (
-        <button className="power-options-container" style={{ transform: Pos }} id="powerOptions">
+        <button
+          className="power-options-container"
+          style={{ transform: Pos }}
+          id="powerOptions"
+        >
           <div
             className="power-option-container"
             onClick={() => {

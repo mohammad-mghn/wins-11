@@ -8,8 +8,8 @@ import { PowerOptions } from "../status";
 import StartMenuApp from "./startMenuApp";
 import StartMenuAppRecently from "./startMenuAppRecently";
 
-import SearchIcon from "../../assists/icons/search.png";
-import rightArrow from "../../assists/icons/right-arrow.png";
+import SearchIcon from "../../assets/icons/search.png";
+import rightArrow from "../../assets/icons/right-arrow.png";
 
 import "../../styles/startMenu.scss";
 
@@ -18,7 +18,9 @@ type appType = { name: string; icon: string };
 const StartMenu = () => {
   const dispatch = useDispatch();
 
-  const startMenuPopUp = useSelector((state: RootState) => state.main.IsStartMenuVisiable);
+  const startMenuPopUp = useSelector(
+    (state: RootState) => state.main.IsStartMenuVisiable
+  );
 
   const user = useSelector((state: RootState) => state.user);
 
@@ -30,7 +32,9 @@ const StartMenu = () => {
         var ignoreClickOnMeElement = document.getElementById("startMenu")!;
         const closeHandler = (event: any) => {
           // check if click contains into power options or not
-          var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
+          var isClickInsideElement = ignoreClickOnMeElement.contains(
+            event.target
+          );
 
           // if didn't contain pop up close the pop up
           if (!isClickInsideElement) {
@@ -45,15 +49,26 @@ const StartMenu = () => {
     }
   }, [startMenuPopUp, dispatch]);
 
-  const pinnedApps = useSelector((state: RootState) => state.main.pinnedStartMenuApps);
+  const pinnedApps = useSelector(
+    (state: RootState) => state.main.pinnedStartMenuApps
+  );
 
-  const recentlyApps = useSelector((state: RootState) => state.main.recommendedAppsinStartMenu);
+  const recentlyApps = useSelector(
+    (state: RootState) => state.main.recommendedAppsinStartMenu
+  );
 
   return (
-    <div className={`start-menu-popup ${startMenuPopUp ? "actived" : "closed"}`} id="startMenu">
+    <div
+      className={`start-menu-popup ${startMenuPopUp ? "actived" : "closed"}`}
+      id="startMenu"
+    >
       <div className="start-menu-blured">
         <div className="start-menu-searchbar">
-          <input type="text" className="start-menu-search-input" placeholder="Type here to search" />
+          <input
+            type="text"
+            className="start-menu-search-input"
+            placeholder="Type here to search"
+          />
           <img src={SearchIcon} alt="" className="icon" />
         </div>
 
@@ -78,7 +93,11 @@ const StartMenu = () => {
           </div>
           <div className="start-menu-apps-recently">
             {recentlyApps.slice(0, 6).map((item: appType, index: number) => (
-              <StartMenuAppRecently name={item.name} icon={item.icon} key={index} />
+              <StartMenuAppRecently
+                name={item.name}
+                icon={item.icon}
+                key={index}
+              />
             ))}
           </div>
         </div>

@@ -2,8 +2,8 @@ import { useEffect, useState } from "react";
 
 import { dateHandler } from "../../modules/date";
 
-import triangle from "../../assists/icons/triangle.png";
-import dropDownIcon from "../../assists/icons/arrow-triangle.png";
+import triangle from "../../assets/icons/triangle.png";
+import dropDownIcon from "../../assets/icons/arrow-triangle.png";
 
 import "../../styles/rightPanel/rightPanel.scss";
 
@@ -12,8 +12,12 @@ function ClockDatePopup() {
 
   const [startIndex, setStartIndex] = useState(0);
   const [collapsed, setCollapsed] = useState(false);
-  const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(date.getMonth());
-  const [currentYearIndex, setCurrentYearIndex] = useState<number>(date.getFullYear());
+  const [currentMonthIndex, setCurrentMonthIndex] = useState<number>(
+    date.getMonth()
+  );
+  const [currentYearIndex, setCurrentYearIndex] = useState<number>(
+    date.getFullYear()
+  );
 
   // make array of month's days so check if month is 30 days or 31
   const monthDays = Array.apply(0, new Array(currentMonthIndex < 6 ? 31 : 30));
@@ -49,7 +53,8 @@ function ClockDatePopup() {
   ];
 
   // check if previous month is 31 day or 30 but we need to add 1 to both because array starting at 0
-  const PreviousMonthDayMount = currentMonthIndex - 1 < 6 ? (currentMonthIndex === 0 ? 31 : 32) : 31;
+  const PreviousMonthDayMount =
+    currentMonthIndex - 1 < 6 ? (currentMonthIndex === 0 ? 31 : 32) : 31;
 
   console.log(previousDays, monthDays);
   useEffect(() => {

@@ -4,18 +4,18 @@ import { RootState } from "../../store";
 import { mainActions } from "../../store/main-slice";
 import { useSelector, useDispatch } from "react-redux";
 
-import WiFi from "../../assists/icons/wifi.png";
-import Bluetooth from "../../assists/icons/bluetooth.png";
-import Airplane from "../../assists/icons/airplane.png";
-import Saver from "../../assists/icons/power-saver.png";
-import Moon from "../../assists/icons/moon.png";
-import Accessibility from "../../assists/icons/accessibility.png";
-import NightLight from "../../assists/icons/nightlight.png";
-import Cast from "../../assists/icons/cast.png";
-import Hotspot from "../../assists/icons/hotspot.png";
-import Sun from "../../assists/icons/brightness.png";
-import Settings from "../../assists/icons/settings-outline.png";
-import Edit from "../../assists/icons/edit.png";
+import WiFi from "../../assets/icons/wifi.png";
+import Bluetooth from "../../assets/icons/bluetooth.png";
+import Airplane from "../../assets/icons/airplane.png";
+import Saver from "../../assets/icons/power-saver.png";
+import Moon from "../../assets/icons/moon.png";
+import Accessibility from "../../assets/icons/accessibility.png";
+import NightLight from "../../assets/icons/nightlight.png";
+import Cast from "../../assets/icons/cast.png";
+import Hotspot from "../../assets/icons/hotspot.png";
+import Sun from "../../assets/icons/brightness.png";
+import Settings from "../../assets/icons/settings-outline.png";
+import Edit from "../../assets/icons/edit.png";
 
 import "../../styles/PopUpControlPanel.scss";
 
@@ -31,7 +31,9 @@ function PopUpControlPanel() {
 
   const volume = useSelector((state: RootState) => state.main.volume);
 
-  const visiable = useSelector((state: RootState) => state.main.PopUpControlPanel);
+  const visiable = useSelector(
+    (state: RootState) => state.main.PopUpControlPanel
+  );
 
   const [chargeLevel, setChargeLevel] = useState(0);
 
@@ -49,7 +51,9 @@ function PopUpControlPanel() {
         var ignoreClickOnMeElement = document.getElementById("startMenu")!;
         const closeHandler = (event: any) => {
           // check if click contains into power options or not
-          var isClickInsideElement = ignoreClickOnMeElement.contains(event.target);
+          var isClickInsideElement = ignoreClickOnMeElement.contains(
+            event.target
+          );
 
           // if didn't contain pop up close the pop up
           if (!isClickInsideElement) {
@@ -73,11 +77,15 @@ function PopUpControlPanel() {
 
     var styleElem = document.head.appendChild(document.createElement("style"));
 
-    styleElem.innerHTML = `body::after {opacity: ${nightLightOpacity ? 0 : 1};}`;
+    styleElem.innerHTML = `body::after {opacity: ${
+      nightLightOpacity ? 0 : 1
+    };}`;
   };
 
   const brightnessHandler = (e: any) => {
-    document.getElementById("main")!.style.filter = `brightness(${e.target.value}%)`;
+    document.getElementById(
+      "main"
+    )!.style.filter = `brightness(${e.target.value}%)`;
 
     setBrightness(e.target.value);
   };
@@ -136,7 +144,12 @@ function PopUpControlPanel() {
   ];
 
   return (
-    <div className={`pop-up-control-panel-container ${visiable ? "active" : "disabled"}`} onClick={stopCloser}>
+    <div
+      className={`pop-up-control-panel-container ${
+        visiable ? "active" : "disabled"
+      }`}
+      onClick={stopCloser}
+    >
       {buttons.map((item) => (
         <ButtonControlPanel item={item} />
       ))}

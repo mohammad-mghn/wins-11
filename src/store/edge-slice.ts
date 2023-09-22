@@ -36,7 +36,7 @@ const initialState: sliceType = {
     {
       logo: "https://upload.wikimedia.org/wikipedia/commons/0/09/IOS_Google_icon.png",
       header: "Google",
-      urls: ["https://vito.vercel.app"],
+      urls: ["https://www.google.com/?igu=1"],
       currentURLIndex: 0,
       backward: false,
       forward: false,
@@ -50,9 +50,9 @@ const initialState: sliceType = {
       forward: false,
     },
     {
-      logo: "https://vito.vercel.app/_next/static/media/V-icon.794f9f25.svg",
+      logo: "https://vito-dev.ir/_next/static/media/v-icon.794f9f25.svg",
       header: "Vito Mohagheghian",
-      urls: ["https://vito.vercel.app"],
+      urls: ["https://vito-dev.ir"],
       currentURLIndex: 0,
       backward: false,
       forward: false,
@@ -116,13 +116,17 @@ const edgeAppSlice = createSlice({
     changeUrlHandler: (state, action) => {
       let newURL = action.payload;
 
-      if (newURL.slice(0, 8) !== "https://" && newURL.slice(0, 7) !== "http://") {
+      if (
+        newURL.slice(0, 8) !== "https://" &&
+        newURL.slice(0, 7) !== "http://"
+      ) {
         newURL = "https://" + newURL;
       }
 
       state.tabs[state.activedTabIndex].urls.push(newURL);
 
-      state.tabs[state.activedTabIndex].currentURLIndex = state.tabs[state.activedTabIndex].urls.length - 1;
+      state.tabs[state.activedTabIndex].currentURLIndex =
+        state.tabs[state.activedTabIndex].urls.length - 1;
 
       state.tabs[state.activedTabIndex].backward = true;
       state.tabs[state.activedTabIndex].forward = false;
@@ -139,12 +143,18 @@ const edgeAppSlice = createSlice({
       }
     },
     forwardHandler: (state) => {
-      if (state.tabs[state.activedTabIndex].currentURLIndex < state.tabs[state.activedTabIndex].urls.length - 1) {
+      if (
+        state.tabs[state.activedTabIndex].currentURLIndex <
+        state.tabs[state.activedTabIndex].urls.length - 1
+      ) {
         state.tabs[state.activedTabIndex].backward = true;
 
         state.tabs[state.activedTabIndex].currentURLIndex++;
 
-        if (state.tabs[state.activedTabIndex].currentURLIndex === state.tabs[state.activedTabIndex].urls.length - 1) {
+        if (
+          state.tabs[state.activedTabIndex].currentURLIndex ===
+          state.tabs[state.activedTabIndex].urls.length - 1
+        ) {
           state.tabs[state.activedTabIndex].forward = false;
         }
       }

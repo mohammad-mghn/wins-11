@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { RootState } from "../../store";
 import { useDispatch, useSelector } from "react-redux";
 
-import Loading from "../../assists/gif/powerLoading.gif";
+import Loading from "../../assets/gif/powerLoading.gif";
 import { appsActions } from "../../store/apps-slice";
 import { signInActions } from "../../store/signin-slice";
 
@@ -14,7 +14,9 @@ const PowerMode = () => {
 
   const dispatch = useDispatch();
 
-  const powerMode = useSelector((state: RootState) => state.signIn.powerMode.powerMode);
+  const powerMode = useSelector(
+    (state: RootState) => state.signIn.powerMode.powerMode
+  );
 
   const closeAllRunningApps = () => {
     // close all apps bacuase either windows shut down, or restarted

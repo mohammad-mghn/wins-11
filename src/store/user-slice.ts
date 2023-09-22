@@ -1,6 +1,6 @@
 import { createSlice } from "@reduxjs/toolkit";
 
-import Profile from "../assists/profile.png";
+import Profile from "../assets/profile.png";
 
 type initialStateType = {
   username: string;

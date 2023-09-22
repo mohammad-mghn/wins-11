@@ -1,13 +1,15 @@
 import { RootState } from "../../store";
 import { useDispatch, useSelector } from "react-redux";
 
-import vscodeIcon from "../../assists/icons/vscode.png";
+import vscodeIcon from "../../assets/icons/vscode.png";
 
 import "../../styles/rightPanel/rightPanel.scss";
 import { mainActions } from "../../store/main-slice";
 
 function Notifications() {
-  const notifications = useSelector((state: RootState) => state.main.notifications);
+  const notifications = useSelector(
+    (state: RootState) => state.main.notifications
+  );
 
   const dispatch = useDispatch();
 

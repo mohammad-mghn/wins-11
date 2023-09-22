@@ -1,15 +1,15 @@
-import ThisPC from "../assists/icons/this-pc.png";
-import Network from "../assists/icons/netword-pc.png";
-import Music from "../assists/icons/music-folder.png";
-import Pictures from "../assists/icons/pictures-folder.png";
-import Desktop from "../assists/icons/desktop-folder-icon.png";
-import Download from "../assists/icons/download-folder.png";
-import RecycleBin from "../assists/icons/recycle-bin.png";
-import Video from "../assists/icons/video-folder.png";
-import OneDrive from "../assists/icons/one-drive.png";
-import Docs from "../assists/icons/docs-folder.png";
-import DiskWins from "../assists/icons/disk-wins.png";
-import Disk from "../assists/icons/disk.png";
+import ThisPC from "../assets/icons/this-pc.png";
+import Network from "../assets/icons/netword-pc.png";
+import Music from "../assets/icons/music-folder.png";
+import Pictures from "../assets/icons/pictures-folder.png";
+import Desktop from "../assets/icons/desktop-folder-icon.png";
+import Download from "../assets/icons/download-folder.png";
+import RecycleBin from "../assets/icons/recycle-bin.png";
+import Video from "../assets/icons/video-folder.png";
+import OneDrive from "../assets/icons/one-drive.png";
+import Docs from "../assets/icons/docs-folder.png";
+import DiskWins from "../assets/icons/disk-wins.png";
+import Disk from "../assets/icons/disk.png";
 
 export const folders = [
   {

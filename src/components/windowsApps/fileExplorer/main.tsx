@@ -3,7 +3,7 @@ import { useDispatch, useSelector } from "react-redux";
 
 import { fileExplorerActions } from "../../../store/fileExplorer";
 
-import folderIcon from "../../../assists/icons/filled-folder.png";
+import folderIcon from "../../../assets/icons/filled-folder.png";
 
 import "../../../styles/applications/fileExplorer/main.scss";
 

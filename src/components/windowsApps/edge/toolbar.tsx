@@ -3,13 +3,13 @@ import { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { RootState } from "../../../store/index";
 
-import arrowIcon from "../../../assists/icons/arrow.png";
-import rotateIcon from "../../../assists/icons/rotate.png";
-import searchIcon from "../../../assists/icons/search.png";
-import starIcon from "../../../assists/icons/star.png";
-import addIcon from "../../../assists/icons/add.png";
-import dotsMenu from "../../../assists/icons/dots-menu.png";
-import addCard from "../../../assists/icons/add-card.png";
+import arrowIcon from "../../../assets/icons/arrow.png";
+import rotateIcon from "../../../assets/icons/rotate.png";
+import searchIcon from "../../../assets/icons/search.png";
+import starIcon from "../../../assets/icons/star.png";
+import addIcon from "../../../assets/icons/add.png";
+import dotsMenu from "../../../assets/icons/dots-menu.png";
+import addCard from "../../../assets/icons/add-card.png";
 
 import "../../../styles/applications/edge/toolbar.scss";
 import { edgeAppActions } from "../../../store/edge-slice";
@@ -86,18 +86,35 @@ function Toolbar(props: Props) {
   return (
     <div className="toolbar-container">
       <div className="toolbar-upper-container">
-        <button className={`navigation-button ${currentTab.backward ? "actived" : ""}`} onClick={backwardHandler}>
+        <button
+          className={`navigation-button ${
+            currentTab.backward ? "actived" : ""
+          }`}
+          onClick={backwardHandler}
+        >
           <img src={arrowIcon} alt="" className="icon" />
         </button>
-        <button className={`navigation-button ${currentTab.forward ? "actived" : ""}`} onClick={forwandHandler}>
+        <button
+          className={`navigation-button ${currentTab.forward ? "actived" : ""}`}
+          onClick={forwandHandler}
+        >
           <img src={arrowIcon} alt="" className="icon" />
         </button>
         <button className="refresh-button" onClick={refreshButtonHandler}>
           <img src={rotateIcon} alt="" className="icon" />
         </button>
-        <form onSubmit={searchHandler} onClick={selectAllURLHandler} className="edge-form">
+        <form
+          onSubmit={searchHandler}
+          onClick={selectAllURLHandler}
+          className="edge-form"
+        >
           <img src={searchIcon} alt="" className="edge-search-icon icon" />
-          <input type="text" defaultValue={url} value={url} onChange={urlHandler} />
+          <input
+            type="text"
+            defaultValue={url}
+            value={url}
+            onChange={urlHandler}
+          />
           <button>
             <img src={starIcon} alt="" className="icon" />
             <img src={addIcon} alt="" className="icon" />

@@ -4,11 +4,11 @@ import { RootState } from "../../../store/index";
 import { useSelector, useDispatch } from "react-redux";
 import { fileExplorerActions } from "../../../store/fileExplorer";
 
-import arrowIcon from "../../../assists/icons/arrow.png";
-import searchIcon from "../../../assists/icons/search.png";
-import refreshIcon from "../../../assists/icons/refresh.png";
-import fileIcon from "../../../assists/icons/folder-empty.png";
-import arrowTriangleIcon from "../../../assists/icons/arrow-triangle.png";
+import arrowIcon from "../../../assets/icons/arrow.png";
+import searchIcon from "../../../assets/icons/search.png";
+import refreshIcon from "../../../assets/icons/refresh.png";
+import fileIcon from "../../../assets/icons/folder-empty.png";
+import arrowTriangleIcon from "../../../assets/icons/arrow-triangle.png";
 
 import "../../../styles/applications/fileExplorer/navabar.scss";
 
@@ -53,7 +53,9 @@ function Navbar({ path }: Props) {
     );
   };
 
-  const pathInputChangeHandler = (e: { target: { value: SetStateAction<string> } }) => {
+  const pathInputChangeHandler = (e: {
+    target: { value: SetStateAction<string> };
+  }) => {
     setRoot(e.target.value);
   };
 
@@ -77,16 +79,29 @@ function Navbar({ path }: Props) {
     <div className="file-explorer-container">
       <div className="navigators-container">
         <button onClick={backwardhandler}>
-          <img src={arrowIcon} alt="" className={FE.past.length !== 0 ? "active icon" : "icon"} />
+          <img
+            src={arrowIcon}
+            alt=""
+            className={FE.past.length !== 0 ? "active icon" : "icon"}
+          />
         </button>
         <button className="forward" onClick={forwardhandler}>
-          <img src={arrowIcon} alt="" className={FE.future.length !== 0 ? "active icon" : "icon"} />
+          <img
+            src={arrowIcon}
+            alt=""
+            className={FE.future.length !== 0 ? "active icon" : "icon"}
+          />
         </button>
         <button className="down">
           <img src={arrowTriangleIcon} alt="" className="icon" />
         </button>
         <button className="up">
-          <img src={arrowIcon} alt="" onClick={rootHandler} className={FE.past.length !== 0 ? "active icon" : "icon"} />
+          <img
+            src={arrowIcon}
+            alt=""
+            onClick={rootHandler}
+            className={FE.past.length !== 0 ? "active icon" : "icon"}
+          />
         </button>
       </div>
       <div className="path-field">
@@ -94,7 +109,12 @@ function Navbar({ path }: Props) {
 
         <form onSubmit={changePathHandler} onClick={pathChangeActivatedHandler}>
           {pathChangeActivated ? (
-            <input type="text" defaultValue={path} onChange={pathInputChangeHandler} value={root} />
+            <input
+              type="text"
+              defaultValue={path}
+              onChange={pathInputChangeHandler}
+              value={root}
+            />
           ) : (
             <div
               className="root-container"

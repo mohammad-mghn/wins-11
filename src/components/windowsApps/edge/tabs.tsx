@@ -2,9 +2,9 @@ import { useDispatch } from "react-redux";
 import { appsActions } from "../../../store/apps-slice";
 import { edgeAppActions } from "../../../store/edge-slice";
 
-import plusIcon from "../../../assists/icons/plus.png";
-import sideBarIcon from "../../../assists/icons/sidebar.png";
-import newTabIcon from "../../../assists/icons/new-tab.png";
+import plusIcon from "../../../assets/icons/plus.png";
+import sideBarIcon from "../../../assets/icons/sidebar.png";
+import newTabIcon from "../../../assets/icons/new-tab.png";
 
 import "../../../styles/applications/edge/tabs.scss";
 
@@ -59,9 +59,15 @@ const Header = (props: Props) => {
             onClick={() => {
               changeTabHandler(index);
             }}
-            className={`tab-container ${index === props.activedTabIndex ? "active" : ""}`}
+            className={`tab-container ${
+              index === props.activedTabIndex ? "active" : ""
+            }`}
           >
-            <img src={item.logo ? item.logo : newTabIcon} alt="" className={!item.logo ? "icon" : ""} />
+            <img
+              src={item.logo ? item.logo : newTabIcon}
+              alt=""
+              className={!item.logo ? "icon" : ""}
+            />
             <h3>{item.header}</h3>
             <button
               className="close-tab-button"

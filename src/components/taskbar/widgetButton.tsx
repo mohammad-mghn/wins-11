@@ -1,4 +1,4 @@
-import Widget from "../../assists/icons/widget.png";
+import Widget from "../../assets/icons/widget.png";
 
 import "../../styles/taskbar.scss";
 

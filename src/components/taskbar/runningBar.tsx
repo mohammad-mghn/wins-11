@@ -1,6 +1,6 @@
 import { FC } from "react";
 
-import Arrow from "../../assists/icons/right-arrow.png";
+import Arrow from "../../assets/icons/right-arrow.png";
 
 import "../../styles/taskbar.scss";
 

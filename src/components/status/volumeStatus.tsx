@@ -1,9 +1,9 @@
 import { useSelector } from "react-redux";
 
-import Audio0 from "../../assists/icons/audio0.png";
-import Audio1 from "../../assists/icons/audio1.png";
-import Audio2 from "../../assists/icons/audio2.png";
-import Audio3 from "../../assists/icons/audio3.png";
+import Audio0 from "../../assets/icons/audio0.png";
+import Audio1 from "../../assets/icons/audio1.png";
+import Audio2 from "../../assets/icons/audio2.png";
+import Audio3 from "../../assets/icons/audio3.png";
 
 type volumeType = {
   main: { volume: number };

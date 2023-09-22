@@ -2,12 +2,14 @@ import { RootState } from "../../store";
 import { mainActions } from "../../store/main-slice";
 import { useDispatch, useSelector } from "react-redux";
 
-import StartMenuLogo from "../../assists/icons/start.png";
+import StartMenuLogo from "../../assets/icons/start.png";
 
 import "../../styles/startMenu.scss";
 
 const StartMenu = () => {
-  const StartMenuPopUp = useSelector((state: RootState) => state.main.IsStartMenuVisiable);
+  const StartMenuPopUp = useSelector(
+    (state: RootState) => state.main.IsStartMenuVisiable
+  );
 
   const dispatch = useDispatch();
 

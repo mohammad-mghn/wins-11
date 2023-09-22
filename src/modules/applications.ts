@@ -9,18 +9,18 @@ import Mail from "../components/windowsApps/mail/index";
 
 // Applications images
 
-import Explorer from "../assists/icons/explorer.png";
-import Folder from "../assists/icons/folder-empty.png";
-import ThisPC from "../assists/icons/this-pc.png";
-import Eadge from "../assists/icons/eadge.png";
-import Settings from "../assists/icons/settings.png";
-import MailIcon from "../assists/icons/mail.png";
-import RecycleBin from "../assists/icons/recycle-bin.png";
-import Store from "../assists/icons/store.png";
-import Spotify from "../assists/icons/spotify.png";
-import NotepadIcon from "../assists/icons/notepad.png";
-import Board from "../assists/icons/board.png";
-import VSCodeIcon from "../assists/icons/vscode.png";
+import Explorer from "../assets/icons/explorer.png";
+import Folder from "../assets/icons/folder-empty.png";
+import ThisPC from "../assets/icons/this-pc.png";
+import Eadge from "../assets/icons/eadge.png";
+import Settings from "../assets/icons/settings.png";
+import MailIcon from "../assets/icons/mail.png";
+import RecycleBin from "../assets/icons/recycle-bin.png";
+import Store from "../assets/icons/store.png";
+import Spotify from "../assets/icons/spotify.png";
+import NotepadIcon from "../assets/icons/notepad.png";
+import Board from "../assets/icons/board.png";
+import VSCodeIcon from "../assets/icons/vscode.png";
 
 export const Applications = [
   {

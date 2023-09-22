@@ -1,13 +1,13 @@
-import newIcon from "../../../assists/icons/new.png";
-import cutIcon from "../../../assists/icons/cut.png";
-import copyIcon from "../../../assists/icons/copy.png";
-import pasteIcon from "../../../assists/icons/paste.png";
-import deleteIcon from "../../../assists/icons/bin.png";
-import renameIcon from "../../../assists/icons/rename.png";
-import sortIcon from "../../../assists/icons/sort.png";
-import viewIcon from "../../../assists/icons/view.png";
-import arrowTriangle from "../../../assists/icons/arrow-triangle.png";
-import threeDots from "../../../assists/icons/dots-menu.png";
+import newIcon from "../../../assets/icons/new.png";
+import cutIcon from "../../../assets/icons/cut.png";
+import copyIcon from "../../../assets/icons/copy.png";
+import pasteIcon from "../../../assets/icons/paste.png";
+import deleteIcon from "../../../assets/icons/bin.png";
+import renameIcon from "../../../assets/icons/rename.png";
+import sortIcon from "../../../assets/icons/sort.png";
+import viewIcon from "../../../assets/icons/view.png";
+import arrowTriangle from "../../../assets/icons/arrow-triangle.png";
+import threeDots from "../../../assets/icons/dots-menu.png";
 
 import "../../../styles/applications/fileExplorer/header.scss";
 

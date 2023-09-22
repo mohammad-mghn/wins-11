@@ -1,14 +1,14 @@
-import Docs from "../assists/icons/docs.png";
-import Star from "../assists/icons/star-sm.png";
-import ThisPC from "../assists/icons/this-pc.png";
-import Pictures from "../assists/icons/pictures.png";
-import Download from "../assists/icons/download.png";
-import Desktop from "../assists/icons/desktop-folder.png";
-import Network from "../assists/icons/netword-pc.png";
-import OneDrive from "../assists/icons/one-drive.png";
-import Video from "../assists/icons/video.png";
-import Music from "../assists/icons/music.png";
-import Disk from "../assists/icons/disk.png";
+import Docs from "../assets/icons/docs.png";
+import Star from "../assets/icons/star-sm.png";
+import ThisPC from "../assets/icons/this-pc.png";
+import Pictures from "../assets/icons/pictures.png";
+import Download from "../assets/icons/download.png";
+import Desktop from "../assets/icons/desktop-folder.png";
+import Network from "../assets/icons/netword-pc.png";
+import OneDrive from "../assets/icons/one-drive.png";
+import Video from "../assets/icons/video.png";
+import Music from "../assets/icons/music.png";
+import Disk from "../assets/icons/disk.png";
 
 export const sidebarArray = [
   {

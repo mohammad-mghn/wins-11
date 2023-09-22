@@ -1,1 +1,452 @@
-{"file:///c%3A/Vito/wins11/.d.ts":{"language":"TypeScript","code":15,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/package.json":{"language":"JSON","code":53,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/README.md":{"language":"Markdown","code":38,"comment":0,"blank":33},"file:///c%3A/Vito/wins11/src/styles/appLayout.scss":{"language":"SCSS","code":74,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/tsconfig.json":{"language":"JSON with Comments","code":21,"comment":1,"blank":1},"file:///c%3A/Vito/wins11/src/styles/variables.scss":{"language":"SCSS","code":58,"comment":0,"blank":10},"file:///c%3A/Vito/wins11/src/styles/taskbar.scss":{"language":"SCSS","code":163,"comment":4,"blank":2},"file:///c%3A/Vito/wins11/src/styles/startMenu.scss":{"language":"SCSS","code":222,"comment":2,"blank":5},"file:///c%3A/Vito/wins11/src/styles/powerOptions.scss":{"language":"SCSS","code":35,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/signIn.scss":{"language":"SCSS","code":192,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/power.scss":{"language":"SCSS","code":19,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/main.scss":{"language":"SCSS","code":14,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/styles/applications/edge/toolbar.scss":{"language":"SCSS","code":179,"comment":0,"blank":6},"file:///c%3A/Vito/wins11/src/styles/applications/edge/tabs.scss":{"language":"SCSS","code":124,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/styles/applications/edge/edge.scss":{"language":"SCSS","code":44,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/navabar.scss":{"language":"SCSS","code":141,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/header.scss":{"language":"SCSS","code":102,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/main.scss":{"language":"SCSS","code":43,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/fileExplorer.scss":{"language":"SCSS","code":18,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/sidebar.tsx":{"language":"TypeScript React","code":5,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/main.tsx":{"language":"TypeScript React","code":38,"comment":1,"blank":5},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/navbar.tsx":{"language":"TypeScript React","code":99,"comment":1,"blank":12},"file:///c%3A/Vito/wins11/src/components/windowsApps/edge/index.tsx":{"language":"TypeScript React","code":38,"comment":0,"blank":12},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/index.tsx":{"language":"TypeScript React","code":18,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/header.tsx":{"language":"TypeScript React","code":58,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/fileExplorer.tsx":{"language":"TypeScript React","code":3,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/components/windowsApps/edge/toolbar.tsx":{"language":"TypeScript React","code":119,"comment":0,"blank":20},"file:///c%3A/Vito/wins11/src/components/windowsApps/edge/tabs.tsx":{"language":"TypeScript React","code":68,"comment":4,"blank":14},"file:///c%3A/Vito/wins11/src/components/status/index.ts":{"language":"TypeScript","code":12,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/components/status/languageStatus.tsx":{"language":"TypeScript React","code":6,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/status/batteryStatus.tsx":{"language":"TypeScript React","code":30,"comment":1,"blank":9},"file:///c%3A/Vito/wins11/src/components/taskbar/widgetButton.tsx":{"language":"TypeScript React","code":10,"comment":0,"blank":4},"file:///c%3A/Vito/wins11/src/components/taskbar/taskbarApp.tsx":{"language":"TypeScript React","code":20,"comment":0,"blank":5},"file:///c%3A/Vito/wins11/src/components/taskbar/taskbar.tsx":{"language":"TypeScript React","code":89,"comment":1,"blank":15},"file:///c%3A/Vito/wins11/src/components/taskbar/statusbar.tsx":{"language":"TypeScript React","code":17,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/components/status/networkStatus.tsx":{"language":"TypeScript React","code":18,"comment":0,"blank":7},"file:///c%3A/Vito/wins11/src/components/taskbar/runningBar.tsx":{"language":"TypeScript React","code":11,"comment":0,"blank":5},"file:///c%3A/Vito/wins11/src/components/taskbar/date%26time.tsx":{"language":"TypeScript React","code":29,"comment":0,"blank":9},"file:///c%3A/Vito/wins11/src/components/status/volumeStatus.tsx":{"language":"TypeScript React","code":21,"comment":0,"blank":6},"file:///c%3A/Vito/wins11/src/components/taskbar/calendarSection.tsx":{"language":"TypeScript React","code":4,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/components/status/powerOptions.tsx":{"language":"TypeScript React","code":88,"comment":5,"blank":14},"file:///c%3A/Vito/wins11/src/components/signIn/signIn.tsx":{"language":"TypeScript React","code":104,"comment":1,"blank":19},"file:///c%3A/Vito/wins11/src/components/startMenu/startMenuButton.tsx":{"language":"TypeScript React","code":18,"comment":0,"blank":8},"file:///c%3A/Vito/wins11/src/components/taskbar/languageBar.tsx":{"language":"TypeScript React","code":10,"comment":0,"blank":4},"file:///c%3A/Vito/wins11/src/components/startMenu/startMenuAppRecently.tsx":{"language":"TypeScript React","code":12,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/components/startMenu/startMenuApp.tsx":{"language":"TypeScript React","code":9,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/components/main/main.tsx":{"language":"TypeScript React","code":40,"comment":0,"blank":11},"file:///c%3A/Vito/wins11/src/components/startMenu/startMenu.tsx":{"language":"TypeScript React","code":79,"comment":6,"blank":19},"file:///c%3A/Vito/wins11/src/components/power/powerMode.tsx":{"language":"TypeScript React","code":67,"comment":8,"blank":13},"file:///c%3A/Vito/wins11/src/components/main/index.ts":{"language":"TypeScript","code":2,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/components/appLayout/appHeader.tsx":{"language":"TypeScript React","code":42,"comment":0,"blank":6},"file:///c%3A/Vito/wins11/src/components/appLayout/applayout.tsx":{"language":"TypeScript React","code":108,"comment":15,"blank":25},"file:///c%3A/Vito/wins11/src/components/layout/layout.tsx":{"language":"TypeScript React","code":20,"comment":0,"blank":6},"file:///c%3A/Vito/wins11/src/components/layout/layoutRouter.tsx":{"language":"TypeScript React","code":19,"comment":0,"blank":7},"file:///c%3A/Vito/wins11/src/store/user-slice.ts":{"language":"TypeScript","code":19,"comment":0,"blank":7},"file:///c%3A/Vito/wins11/src/modules/themes.ts":{"language":"TypeScript","code":20,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/src/store/signin-slice.ts":{"language":"TypeScript","code":40,"comment":0,"blank":9},"file:///c%3A/Vito/wins11/src/modules/globalStyles.ts":{"language":"TypeScript","code":13,"comment":0,"blank":2},"file:///c%3A/Vito/wins11/src/store/index.ts":{"language":"TypeScript","code":23,"comment":0,"blank":6},"file:///c%3A/Vito/wins11/src/store/main-slice.ts":{"language":"TypeScript","code":35,"comment":0,"blank":8},"file:///c%3A/Vito/wins11/src/modules/clock.ts":{"language":"TypeScript","code":24,"comment":2,"blank":9},"file:///c%3A/Vito/wins11/src/store/fileExplorer.ts":{"language":"TypeScript","code":46,"comment":0,"blank":8},"file:///c%3A/Vito/wins11/src/modules/applications.ts":{"language":"TypeScript","code":185,"comment":5,"blank":9},"file:///c%3A/Vito/wins11/src/modules/date.ts":{"language":"TypeScript","code":42,"comment":1,"blank":12},"file:///c%3A/Vito/wins11/src/store/edge-slice.ts":{"language":"TypeScript","code":140,"comment":0,"blank":18},"file:///c%3A/Vito/wins11/src/index.tsx":{"language":"TypeScript React","code":20,"comment":2,"blank":3},"file:///c%3A/Vito/wins11/src/store/apps-slice.ts":{"language":"TypeScript","code":76,"comment":0,"blank":27},"file:///c%3A/Vito/wins11/src/index.css":{"language":"CSS","code":29,"comment":4,"blank":5},"file:///c%3A/Vito/wins11/src/App.tsx":{"language":"TypeScript React","code":5,"comment":0,"blank":3},"file:///c%3A/Vito/wins11/public/manifest.json":{"language":"JSON","code":25,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/assists/icons/battey-full.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/public/index.html":{"language":"HTML","code":17,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/assists/icons/battery-charging.svg":{"language":"XML","code":11,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/src/assists/icons/battery-empty.svg":{"language":"XML","code":3,"comment":0,"blank":1},"file:///c%3A/Vito/wins11/package-lock.json":{"language":"JSON","code":29514,"comment":0,"blank":1}}
+{
+  "file:///c%3A/Vito/wins11/.d.ts": {
+    "language": "TypeScript",
+    "code": 15,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/package.json": {
+    "language": "JSON",
+    "code": 53,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/README.md": {
+    "language": "Markdown",
+    "code": 38,
+    "comment": 0,
+    "blank": 33
+  },
+  "file:///c%3A/Vito/wins11/src/styles/appLayout.scss": {
+    "language": "SCSS",
+    "code": 74,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/tsconfig.json": {
+    "language": "JSON with Comments",
+    "code": 21,
+    "comment": 1,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/styles/variables.scss": {
+    "language": "SCSS",
+    "code": 58,
+    "comment": 0,
+    "blank": 10
+  },
+  "file:///c%3A/Vito/wins11/src/styles/taskbar.scss": {
+    "language": "SCSS",
+    "code": 163,
+    "comment": 4,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/startMenu.scss": {
+    "language": "SCSS",
+    "code": 222,
+    "comment": 2,
+    "blank": 5
+  },
+  "file:///c%3A/Vito/wins11/src/styles/powerOptions.scss": {
+    "language": "SCSS",
+    "code": 35,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/signIn.scss": {
+    "language": "SCSS",
+    "code": 192,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/power.scss": {
+    "language": "SCSS",
+    "code": 19,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/main.scss": {
+    "language": "SCSS",
+    "code": 14,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/edge/toolbar.scss": {
+    "language": "SCSS",
+    "code": 179,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/edge/tabs.scss": {
+    "language": "SCSS",
+    "code": 124,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/edge/edge.scss": {
+    "language": "SCSS",
+    "code": 44,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/navabar.scss": {
+    "language": "SCSS",
+    "code": 141,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/header.scss": {
+    "language": "SCSS",
+    "code": 102,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/main.scss": {
+    "language": "SCSS",
+    "code": 43,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/styles/applications/fileExplorer/fileExplorer.scss": {
+    "language": "SCSS",
+    "code": 18,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/sidebar.tsx": {
+    "language": "TypeScript React",
+    "code": 5,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/main.tsx": {
+    "language": "TypeScript React",
+    "code": 38,
+    "comment": 1,
+    "blank": 5
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/navbar.tsx": {
+    "language": "TypeScript React",
+    "code": 99,
+    "comment": 1,
+    "blank": 12
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/edge/index.tsx": {
+    "language": "TypeScript React",
+    "code": 38,
+    "comment": 0,
+    "blank": 12
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/index.tsx": {
+    "language": "TypeScript React",
+    "code": 18,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/header.tsx": {
+    "language": "TypeScript React",
+    "code": 58,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/fileExplorer/fileExplorer.tsx": {
+    "language": "TypeScript React",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/edge/toolbar.tsx": {
+    "language": "TypeScript React",
+    "code": 119,
+    "comment": 0,
+    "blank": 20
+  },
+  "file:///c%3A/Vito/wins11/src/components/windowsApps/edge/tabs.tsx": {
+    "language": "TypeScript React",
+    "code": 68,
+    "comment": 4,
+    "blank": 14
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/index.ts": {
+    "language": "TypeScript",
+    "code": 12,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/languageStatus.tsx": {
+    "language": "TypeScript React",
+    "code": 6,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/batteryStatus.tsx": {
+    "language": "TypeScript React",
+    "code": 30,
+    "comment": 1,
+    "blank": 9
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/widgetButton.tsx": {
+    "language": "TypeScript React",
+    "code": 10,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/taskbarApp.tsx": {
+    "language": "TypeScript React",
+    "code": 20,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/taskbar.tsx": {
+    "language": "TypeScript React",
+    "code": 89,
+    "comment": 1,
+    "blank": 15
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/statusbar.tsx": {
+    "language": "TypeScript React",
+    "code": 17,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/networkStatus.tsx": {
+    "language": "TypeScript React",
+    "code": 18,
+    "comment": 0,
+    "blank": 7
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/runningBar.tsx": {
+    "language": "TypeScript React",
+    "code": 11,
+    "comment": 0,
+    "blank": 5
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/date%26time.tsx": {
+    "language": "TypeScript React",
+    "code": 29,
+    "comment": 0,
+    "blank": 9
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/volumeStatus.tsx": {
+    "language": "TypeScript React",
+    "code": 21,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/calendarSection.tsx": {
+    "language": "TypeScript React",
+    "code": 4,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/components/status/powerOptions.tsx": {
+    "language": "TypeScript React",
+    "code": 88,
+    "comment": 5,
+    "blank": 14
+  },
+  "file:///c%3A/Vito/wins11/src/components/signIn/signIn.tsx": {
+    "language": "TypeScript React",
+    "code": 104,
+    "comment": 1,
+    "blank": 19
+  },
+  "file:///c%3A/Vito/wins11/src/components/startMenu/startMenuButton.tsx": {
+    "language": "TypeScript React",
+    "code": 18,
+    "comment": 0,
+    "blank": 8
+  },
+  "file:///c%3A/Vito/wins11/src/components/taskbar/languageBar.tsx": {
+    "language": "TypeScript React",
+    "code": 10,
+    "comment": 0,
+    "blank": 4
+  },
+  "file:///c%3A/Vito/wins11/src/components/startMenu/startMenuAppRecently.tsx": {
+    "language": "TypeScript React",
+    "code": 12,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/components/startMenu/startMenuApp.tsx": {
+    "language": "TypeScript React",
+    "code": 9,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/components/main/main.tsx": {
+    "language": "TypeScript React",
+    "code": 40,
+    "comment": 0,
+    "blank": 11
+  },
+  "file:///c%3A/Vito/wins11/src/components/startMenu/startMenu.tsx": {
+    "language": "TypeScript React",
+    "code": 79,
+    "comment": 6,
+    "blank": 19
+  },
+  "file:///c%3A/Vito/wins11/src/components/power/powerMode.tsx": {
+    "language": "TypeScript React",
+    "code": 67,
+    "comment": 8,
+    "blank": 13
+  },
+  "file:///c%3A/Vito/wins11/src/components/main/index.ts": {
+    "language": "TypeScript",
+    "code": 2,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/components/appLayout/appHeader.tsx": {
+    "language": "TypeScript React",
+    "code": 42,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Vito/wins11/src/components/appLayout/applayout.tsx": {
+    "language": "TypeScript React",
+    "code": 108,
+    "comment": 15,
+    "blank": 25
+  },
+  "file:///c%3A/Vito/wins11/src/components/layout/layout.tsx": {
+    "language": "TypeScript React",
+    "code": 20,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Vito/wins11/src/components/layout/layoutRouter.tsx": {
+    "language": "TypeScript React",
+    "code": 19,
+    "comment": 0,
+    "blank": 7
+  },
+  "file:///c%3A/Vito/wins11/src/store/user-slice.ts": {
+    "language": "TypeScript",
+    "code": 19,
+    "comment": 0,
+    "blank": 7
+  },
+  "file:///c%3A/Vito/wins11/src/modules/themes.ts": {
+    "language": "TypeScript",
+    "code": 20,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/store/signin-slice.ts": {
+    "language": "TypeScript",
+    "code": 40,
+    "comment": 0,
+    "blank": 9
+  },
+  "file:///c%3A/Vito/wins11/src/modules/globalStyles.ts": {
+    "language": "TypeScript",
+    "code": 13,
+    "comment": 0,
+    "blank": 2
+  },
+  "file:///c%3A/Vito/wins11/src/store/index.ts": {
+    "language": "TypeScript",
+    "code": 23,
+    "comment": 0,
+    "blank": 6
+  },
+  "file:///c%3A/Vito/wins11/src/store/main-slice.ts": {
+    "language": "TypeScript",
+    "code": 35,
+    "comment": 0,
+    "blank": 8
+  },
+  "file:///c%3A/Vito/wins11/src/modules/clock.ts": {
+    "language": "TypeScript",
+    "code": 24,
+    "comment": 2,
+    "blank": 9
+  },
+  "file:///c%3A/Vito/wins11/src/store/fileExplorer.ts": {
+    "language": "TypeScript",
+    "code": 46,
+    "comment": 0,
+    "blank": 8
+  },
+  "file:///c%3A/Vito/wins11/src/modules/applications.ts": {
+    "language": "TypeScript",
+    "code": 185,
+    "comment": 5,
+    "blank": 9
+  },
+  "file:///c%3A/Vito/wins11/src/modules/date.ts": {
+    "language": "TypeScript",
+    "code": 42,
+    "comment": 1,
+    "blank": 12
+  },
+  "file:///c%3A/Vito/wins11/src/store/edge-slice.ts": {
+    "language": "TypeScript",
+    "code": 140,
+    "comment": 0,
+    "blank": 18
+  },
+  "file:///c%3A/Vito/wins11/src/index.tsx": {
+    "language": "TypeScript React",
+    "code": 20,
+    "comment": 2,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/src/store/apps-slice.ts": {
+    "language": "TypeScript",
+    "code": 76,
+    "comment": 0,
+    "blank": 27
+  },
+  "file:///c%3A/Vito/wins11/src/index.css": {
+    "language": "CSS",
+    "code": 29,
+    "comment": 4,
+    "blank": 5
+  },
+  "file:///c%3A/Vito/wins11/src/App.tsx": {
+    "language": "TypeScript React",
+    "code": 5,
+    "comment": 0,
+    "blank": 3
+  },
+  "file:///c%3A/Vito/wins11/public/manifest.json": {
+    "language": "JSON",
+    "code": 25,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/assets/icons/battey-full.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/public/index.html": {
+    "language": "HTML",
+    "code": 17,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/assets/icons/battery-charging.svg": {
+    "language": "XML",
+    "code": 11,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/src/assets/icons/battery-empty.svg": {
+    "language": "XML",
+    "code": 3,
+    "comment": 0,
+    "blank": 1
+  },
+  "file:///c%3A/Vito/wins11/package-lock.json": {
+    "language": "JSON",
+    "code": 29514,
+    "comment": 0,
+    "blank": 1
+  }
+}

@@ -1,7 +1,7 @@
 import { useState } from "react";
 
-import online from "../../assists/icons/wifi.png";
-import offline from "../../assists/icons/disconnected-network.png";
+import online from "../../assets/icons/wifi.png";
+import offline from "../../assets/icons/disconnected-network.png";
 
 const NetworkStatus = () => {
   const [isOnline, setIsOnline] = useState<boolean>(window.navigator.onLine);
@@ -16,7 +16,11 @@ const NetworkStatus = () => {
 
   return (
     <>
-      {isOnline ? <img src={online} alt="" className="icon" /> : <img src={offline} alt="" className="offline icon" />}
+      {isOnline ? (
+        <img src={online} alt="" className="icon" />
+      ) : (
+        <img src={offline} alt="" className="offline icon" />
+      )}
     </>
   );
 };
