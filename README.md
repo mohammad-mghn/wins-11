@@ -59,7 +59,7 @@ Check out the live demo of the Wins-11 Simulator [here](https://wins-11.ir).
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/vito-mohagheghian/wins-11.git
+git clone https://github.com/mohammad-mghn/wins-11.git
 ```
 
 2. Navigate to the project directory:
@@ -90,7 +90,7 @@ yarn
 
 ## 🧑‍💻 Developers
 
-- Vito Mohagheghian - [GitHub](https://github.com/vito-mohagheghian) - [LinkedIn](https://www.linkedin.com/in/vito-mohagheghian) - [X](https://x.com/hereisvito)
+- Vito Mohagheghian - [GitHub](https://github.com/mohammad-mghn) - [LinkedIn](https://www.linkedin.com/in/mohammad-mohagheghian) - [X](https://x.com/mohammadmghn)
 
 ## 💡 Wish List
 
